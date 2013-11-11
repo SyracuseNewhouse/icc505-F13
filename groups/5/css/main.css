@@ -9,12 +9,19 @@
  */
 * {
 	border: 1px solid black;
-}
+	}
 
 /* Make it so one of your elements has a red background.
  * The "#" indicates that we are selecting an item using its "id" value.
  * Try changing the id to something else to see what happens.
  */
+ #intro {background-color: black;
+ 	color: white}
 #headline {
-	background: red;
+	background: orange;
+	}
+
+.text {
+	font-family: Times;
 }
+
