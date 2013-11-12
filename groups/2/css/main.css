@@ -8,7 +8,6 @@
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
 * {
-	border: 1px solid black;
 }
 
 /* Make it so one of your elements has a red background.
@@ -17,4 +16,11 @@
  */
 #headline {
 	background: red;
+}
+#quilt_content {
+	background: red;
+}
+
+.bio_text {
+	font-size: 19px;
 }
