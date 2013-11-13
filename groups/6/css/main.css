@@ -16,5 +16,22 @@
  * Try changing the id to something else to see what happens.
  */
 #headline {
-	background: red;
+	background: DarkBlue;
+	color: white;
+}
+.box_label {
+	background: DarkBlue;
+	height: 15px;
+	color: white;
+	font-size: 17px;
+}
+#grid {
+	background: gray;
+}
+#container {
+	background: gray;
+	color: black;
+}
+#img src {
+	height: 100px;
 }
