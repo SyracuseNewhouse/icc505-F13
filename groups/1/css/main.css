@@ -17,4 +17,15 @@
  */
 #headline {
 	background: red;
+	font-style: normal;
+}
+
+/* Make our scholars blue! */
+.scholar {
+	background: blue;
+	margin: 10px;
+}
+
+#scholar-2 {
+	background: red;
 }

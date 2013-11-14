@@ -16,5 +16,9 @@
  * Try changing the id to something else to see what happens.
  */
 #headline {
-	background: red;
+	background: blue;
+}
+
+.bio_text {
+	background: green;
 }
