@@ -1,20 +1,54 @@
-/* This file is where you define the way your page should look.
- * We will go over how CSS works, but the basic idea is you can identify what items you want to change, and then say how you want to change it.
- */
-
-
-/* Make it so there is a black border around every HTML element.
- * The "*" that shows before the "{ border: 1px solid black; }" below means "apply this to everything."
- * Try editing the 1 to a 2 and see what happens, or pick a different color.
- */
 * {
 	border: 1px solid black;
+	font-family: arial;
 }
 
-/* Make it so one of your elements has a red background.
- * The "#" indicates that we are selecting an item using its "id" value.
- * Try changing the id to something else to see what happens.
- */
 #headline {
 	background: red;
+	text-align: center;
+}
+
+nav{
+	height: 70px;
+	width: 100%;
+	background-color: yellow;
+}
+
+nav ul li{
+	list-style: none;
+	padding: 0px 10px;
+	color: black;
+	float: left;
+	position: relative;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	display: block;
+}
+
+nav ul li a:hover{
+	background-color: orange;
+}
+
+nav ul ul{
+	width: 200px;
+	background-color: pink;
+	position: absolute;
+	display: none;
+}
+
+nav ul ul li{
+	float: none;
+	width: 100%;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+.fix{
+	clear: both;
 }
