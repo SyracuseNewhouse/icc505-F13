@@ -19,5 +19,10 @@
 	background: blue;
 }
 
-#keyframes {width: 300px
+#keyframes {width: 500px
 }
+
+.image {margin-left: 50px
+}
+
+.information {margin-left: 0px}
