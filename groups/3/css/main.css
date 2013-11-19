@@ -15,6 +15,16 @@
  * The "#" indicates that we are selecting an item using its "id" value.
  * Try changing the id to something else to see what happens.
  */
+
 #headline {
-	background: red;
+	padding: 10px;
 }
+
+#side_navigation {
+	list-style-type: none;
+}
+
+.page_1 {
+	background: green;
+}
+
