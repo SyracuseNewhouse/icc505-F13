@@ -16,16 +16,17 @@
  * Try changing the id to something else to see what happens.
  */
 #headline {
-	background: red;
-	font-style: normal;
-}
-
-/* Make our scholars blue! */
-.scholar {
 	background: blue;
-	margin: 10px;
 }
 
-#scholar-2 {
-	background: red;
+#keyframes {width: 500px
+}
+
+.information {font-size: large; margin-left: 5px; margin-right: 5px; border-width: 0px;
+}
+
+.headline {font-size: x-large;
+}
+
+.image {border-width: 0px;
 }
