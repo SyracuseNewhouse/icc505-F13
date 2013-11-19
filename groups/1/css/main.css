@@ -22,7 +22,11 @@
 #keyframes {width: 500px
 }
 
-.image {margin-left: 50px
+.information {font-size: large; margin-left: 5px; margin-right: 5px; border-width: 0px;
 }
 
-.information {margin-left: 0px}
+.headline {font-size: x-large;
+}
+
+.image {border-width: 0px;
+}
