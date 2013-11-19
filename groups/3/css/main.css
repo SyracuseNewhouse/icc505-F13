@@ -1,54 +1,87 @@
-* {
-	border: 1px solid black;
-	font-family: arial;
-}
-
-#headline {
-	background: red;
+h1{
 	text-align: center;
-}
-
-nav{
-	height: 70px;
-	width: 100%;
-	background-color: yellow;
-}
-
-nav ul li{
-	list-style: none;
-	padding: 0px 10px;
-	color: black;
-	float: left;
-	position: relative;
-	font-weight: bold;
-	line-height: 50px;
-}
-
-nav ul li a{
-	text-decoration: none;
-	display: block;
-}
-
-nav ul li a:hover{
-	background-color: orange;
-}
-
-nav ul ul{
-	width: 200px;
-	background-color: pink;
-	position: absolute;
-	display: none;
-}
-
-nav ul ul li{
-	float: none;
-	width: 100%;
-}
-
-nav ul li:hover ul{
-	display: block;
+	font-size: 72px;
+	font-family: arial;
 }
 
 .fix{
 	clear: both;
+}
+
+.note{
+	position: absolute;
+}
+
+.card{
+	position: absolute;
+	cursor: pointer;
+}
+
+.photo{
+
+}
+
+#container{
+	width: 1000px;
+	height: 1200px;
+	margin: auto;
+	border: 1px solid black;
+	position: relative;
+}
+
+#joint_investigations{
+	top: 190px;
+	left: 70px;
+}
+
+#libya{
+	top: 49px;
+	left: 388px;
+}
+
+#airline_security{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	top: 33px;
+	left: 497px;
+}
+
+#day_to_day_life{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	top: 283px;
+	left: 128px;
+}
+
+/*#video{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	top: 300px;
+	left: 190px;
+}*/
+
+#laws{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	top: 338px;
+	left: 550px;
+}
+
+#media_coverage{
+	top: 532px;
+	left: 41px;
+}
+
+#lockerbie{
+	top: 600px;
+	left: 315px;
+}
+
+#terrorism{
+	top: 700px;
+	left: 500px;
 }

@@ -1,0 +1,64 @@
+h1{
+	text-align: center;
+	font-size: 72px;
+	font-family: arial;
+}
+
+.fix{
+	clear: both;
+}
+
+.note{
+	position: absolute;
+}
+
+.caption{
+	position: absolute;
+}
+
+.pop_up{
+	/*display: none;*/
+	position: absolute;
+}
+
+.card{
+	position: absolute;
+	cursor: pointer;
+}
+
+.photo{
+
+}
+
+#container{
+	width: 1000px;
+	height: 1200px;
+	margin: auto;
+	border: 1px solid black;
+	position: relative;
+}
+
+#before_pan_am{
+	top: 124px;
+	left: 30px;
+}
+
+#map{
+	top: 230px;
+	left: 75px;
+}
+
+#map_caption{
+	top: 545px;
+	left: 10px;
+}
+
+#map_pop_up{
+	top: 320px;
+	left: 180px;
+}
+
+#quote{
+	top: 700px;
+	left: 10px;
+}
