@@ -82,13 +82,18 @@ audio {width:42px;width: 42px;
 }
 
 #headline {
-	font-size: 1.5em; float:left; margin-left:8%; font-weight: normal; font-family:'Cedarville Cursive', sans-serif;}
+	font-size: 1.5em; 
+    float:left; 
+    margin-left:8%; 
+    font-weight: normal; 
+    font-family:'Cedarville Cursive', sans-serif;
+}
 
 header { background-color: #fff; float:left; width:100%; font-family:'Open Sans', sans-serif; }
 #about_content {background: orange;}
 
 ul li { float:right; list-style:none; padding:10px; font-size:.8em;}
 
-ul li a {color:#000; text-decoration:none; }
+ul li a { color:#000; text-decoration:none; }
 
 ul {margin-right:10%;}
