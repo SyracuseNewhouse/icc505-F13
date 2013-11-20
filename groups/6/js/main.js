@@ -20,6 +20,15 @@ $(function () {
 		box.addClass("enabled");
 	};
 
+	// We want to be able to highlight boxes (i.e. make it so the user is drawn to them)
+	var highlight_box = function(index) {
+		var box = $(boxes[index]);
+		box.addClass("highlighted");
+
+		// When a box is highlighte, we will also enable it
+		enable_box(index);
+	};
+
 	// We also want to be able to "activate boxes" (i.e. react when the user clicks on them)
 	var activate_box = function(index) {
 		// The user just activated a box!
@@ -83,4 +92,15 @@ $(function () {
 
 	// Enable the first box (in programming, 0 is always the first, not 1)
 	enable_box(0);
+
+	//
+	var h = getQueryVariable("h");
+	if(h) {
+		var highlights = h.split(",");
+		for(var x in highlights){
+			var index = parseInt(highlights[x]);
+			highlight_box(index);
+
+		}
+	}
 })
