@@ -9,6 +9,8 @@
  */
 * {
 	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
 }
 
 /* Make it so one of your elements has a red background.
@@ -16,5 +18,35 @@
  * Try changing the id to something else to see what happens.
  */
 #headline {
-	background: red;
+	background: DarkBlue;
+	color: white;
 }
+.box_label {
+	background: DarkBlue;
+	height: 15px;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+}
+#grid {
+	background: gray;
+	width: 560px;
+	height: 560px;
+}
+#container {
+	background: gray;
+	color: black;
+}
+#img src {
+	height: 100px;
+}
+#grid li {
+    background: DarkBlue;
+    height: 100px;
+    width: 100px;
+    list-style: none; 
+    float: left;
+    margin: 5px;
+}
+
+
