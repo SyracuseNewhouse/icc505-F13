@@ -8,7 +8,6 @@
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
 * {
-	border: 1px solid black;
 	margin: 0px;
 	padding: 0px;
 }
@@ -21,17 +20,11 @@
 	background: DarkBlue;
 	color: white;
 }
-.box_label {
-	background: DarkBlue;
-	height: 15px;
-	color: white;
-	font-size: 17px;
-	text-align: center;
-}
 #grid {
 	background: gray;
-	width: 560px;
-	height: 560px;
+	width: 830px;
+	height: 830px;
+	margin: auto;
 }
 #container {
 	background: gray;
@@ -42,11 +35,47 @@
 }
 #grid li {
     background: DarkBlue;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     list-style: none; 
     float: left;
     margin: 5px;
+    border: 3px solid black;
+	text-align: center;
+	display:table;
+}
+
+#grid li.enabled {
+	cursor: pointer;
+	border-color: green;
+}
+
+#grid li.highlighted {
+	background: yellow;
 }
 
 
+.box_label {
+	background: DarkBlue;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	display:table-cell;
+	vertical-align:middle
+}
+
+.box_source {
+	display: none;
+}
+
+#box_content {
+	height: 300px;
+	width: 830px;
+	margin: auto;
+}
+
+#box_content iframe {
+	height: 100%;
+	width: 100%;
+	border: 0px;
+}
