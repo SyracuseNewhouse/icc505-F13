@@ -18,6 +18,9 @@
 
 body{ padding:0; margin:0;}
 
+#container {animation:onload 2s;
+	-webkit-animation:onload 2s;}
+
 #headline {
 	font-size: 1.5em; float:left; margin-left:8%; font-weight: normal; font-family:'Cedarville Cursive', sans-serif;}
 
@@ -25,6 +28,8 @@ header { background-color: #fff; float:left; width:100%; font-family:'Open Sans'
 #about_content {background: orange;}
 
 ul li { float:right; list-style:none; padding:10px; font-size:.8em;}
+
+ul li a {color:#000; text-decoration:none; }
 
 ul {margin-right:10%;}
 
@@ -38,5 +43,23 @@ position: absolute;
 top: 23%;
 left: 27%;
 display: block;
-z-index: 1;}
-#quad {visibility: hidden}
+z-index: 1;
+
+}
+
+
+#quad {visibility: hidden;
+        
+}
+
+@keyframes onload
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+@-webkit-keyframes onload
+{
+from {opacity:0;}
+to {opacity:1;}
+}
