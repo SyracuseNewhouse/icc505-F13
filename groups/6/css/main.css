@@ -8,7 +8,6 @@
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
 * {
-	border: 1px solid black;
 	margin: 0px;
 	padding: 0px;
 }
@@ -30,8 +29,9 @@
 }
 #grid {
 	background: gray;
-	width: 560px;
-	height: 560px;
+	width: 580px;
+	height: 580px;
+	margin: auto;
 }
 #container {
 	background: gray;
@@ -47,6 +47,22 @@
     list-style: none; 
     float: left;
     margin: 5px;
+    border: 3px solid black;
 }
 
+#grid li.enabled {
+	cursor: pointer;
+	border-color: green;
+}
 
+#box_content {
+	height: 300px;
+	width: 580px;
+	margin: auto;
+}
+
+#box_content iframe {
+	height: 100%;
+	width: 100%;
+	border: 0px;
+}

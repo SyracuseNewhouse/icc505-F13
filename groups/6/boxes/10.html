@@ -2,29 +2,31 @@
 <html>
 	<head>
 		<title>Moving Forward by Looking Back</title>
-		<link rel="stylesheet" type="text/css" href="../css/main.css">
-		<script type="text/javascript" src="../js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/main.css"
 	</head>
 	<body>
 		<div id="container">
 			<h1 id="headline">Moving Forward by Looking Back</h1>
-			<img src="" alt="Image Content">
-			<div id="tabs">
-			  <ul>
-			    <li><a href="#tabs-about">About</a></li>
-			    <li><a href="#tabs-share">Share</a></li>
-			    <li><a href="#tabs-comment">Comment</a></li>
-			  </ul>
-			  <div id="tabs-about">
+			<div class="content">
 			    <p><u>Question</u>: What would you put in the time capsule?<br><br>What will happen here is that the user will click on the box and the aforementioned question will pop in another window. Underneath this question, there will be a box where the user can insert his or her comment.</p>
-			  </div>
-			  <div id="tabs-share">
-			    <p>We would like to include some share buttons for Facebook and Twitter and construct an embed code for whatever content is in this box so that the user can post this on their blog or wherever else he or she may want to post it.</p>
-			  </div>
-			  <div id="tabs-comment">
-			    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-			    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
-			  </div>
+			</div>
+			<div class="share">
+				<div class="twitter">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+				<div class="facebook">
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=236583576504015";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+					<div class="fb-share-button" data-type="button_count"></div>
+				</div>
+				<div class="embed">(INSERT EMBED CODE HERE)</div>
 			</div>
 		</div>
 	</body>
