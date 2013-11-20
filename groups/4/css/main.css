@@ -36,7 +36,13 @@ ul {margin-right:10%;}
 .building {background: red; width:1000px;
 }
 
-#map_content{ z-index: 3; position: relative;}
+#map {
+  position: fixed;
+  top: 75px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
 .link {width: 20px;
 height: 20px;
 position: absolute;
