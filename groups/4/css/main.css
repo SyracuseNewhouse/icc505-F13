@@ -7,7 +7,7 @@
  * The "*" that shows before the "{ border: 1px solid black; }" below means "apply this to everything."
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
-* {
+/** {
 	border: 1px solid black;
 }
 
@@ -15,12 +15,23 @@
  * The "#" indicates that we are selecting an item using its "id" value.
  * Try changing the id to something else to see what happens.
  */
+
+body{ padding:0; margin:0;}
+
 #headline {
-	background: blue; font-family: 'Cedarville Cursive', cursive; font-size: 32;}
+	font-size: 1.5em; float:left; margin-left:8%; font-weight: normal; font-family:'Cedarville Cursive', sans-serif;}
+
+header { background-color: #fff; float:left; width:100%; font-family:'Open Sans', sans-serif; }
 #about_content {background: orange;}
+
+ul li { float:right; list-style:none; padding:10px; font-size:.8em;}
+
+ul {margin-right:10%;}
+
 .building {background: red; width:1000px;
 }
-#map_content{border: 3px solid black; z-index: 3; position: relative;}
+
+#map_content{ z-index: 3; position: relative;}
 .link {width: 20px;
 height: 20px;
 position: absolute;
