@@ -9,6 +9,8 @@
  */
 * {
 	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
 }
 
 /* Make it so one of your elements has a red background.
@@ -26,7 +28,9 @@
 	font-size: 17px;
 }
 #grid {
-	background: gray;
+	background: green;
+	width: 560px;
+	height: 560px;
 }
 #container {
 	background: gray;
@@ -35,3 +39,15 @@
 #img src {
 	height: 100px;
 }
+#grid li {
+    background: red;
+    height: 100px;
+    width: 100px;
+    list-style: none; 
+    float: left;
+    margin: 5px;
+}
+#grid li .box_source {
+	display: none;
+}
+
