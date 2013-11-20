@@ -26,9 +26,10 @@
 	height: 15px;
 	color: white;
 	font-size: 17px;
+	text-align: center;
 }
 #grid {
-	background: #F9A5A1;
+	background: gray;
 	width: 560px;
 	height: 560px;
 }
@@ -40,14 +41,12 @@
 	height: 100px;
 }
 #grid li {
-    background: red;
+    background: DarkBlue;
     height: 100px;
     width: 100px;
     list-style: none; 
     float: left;
     margin: 5px;
 }
-#grid li .box_source {
-	display: none;
-}
+
 
