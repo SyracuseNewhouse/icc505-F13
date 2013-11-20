@@ -16,10 +16,10 @@
  * Try changing the id to something else to see what happens.
  */
 #headline {
-	background: blue;
+	background: orange;
 }
 
-#keyframes {width: 500px
+#keyframes {width: 500px; position: absolute;top: 300px; position: absolute;left: 100px;
 }
 
 .information {font-size: large; margin-left: 5px; margin-right: 5px; border-width: 0px;

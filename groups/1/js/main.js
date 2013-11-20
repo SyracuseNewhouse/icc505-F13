@@ -10,7 +10,7 @@ $(function () {
 	// See http://popcornjs.org/popcorn-with-vimeo for more information.
 	var video = Popcorn.vimeo(
 		'#video',
-		'http://player.vimeo.com/video/67995158');
+		'http://vimeo.com/79824972');
 
 	// Go through each keyframe, see what time it should be triggered, and use Popcorn to trigger it
 	// We are using the jQuery "each" method to go through "each" keyframe.
