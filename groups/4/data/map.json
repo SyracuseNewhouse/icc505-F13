@@ -1,0 +1,22 @@
+{
+  "floorHeight": "1400",
+  "floorWidth": "2000",
+  "booths": [
+    {
+      "number": "",
+      "category": "",
+      "show_title": true,
+      "title": "This is a building!  Walk over this text.",
+      "description": "",
+      "attribution": "",
+      "x": 740,
+      "y": 760,
+      "height": 160,
+      "width": 160,
+      "background_url": "",
+      "booth_url": "buildings/example.html"
+    }
+  ],
+  "sections": [
+  ]
+}
