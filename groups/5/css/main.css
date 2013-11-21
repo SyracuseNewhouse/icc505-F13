@@ -2,33 +2,30 @@
  * We will go over how CSS works, but the basic idea is you can identify what items you want to change, and then say how you want to change it.
  */
 
-
-/* Make it so there is a black border around every HTML element.
- * The "*" that shows before the "{ border: 1px solid black; }" below means "apply this to everything."
- * Try editing the 1 to a 2 and see what happens, or pick a different color.
- */
 * {
 	padding: 0px;
 	margin: 0px;
 }
-
-/* Make it so one of your elements has a red background.
- * The "#" indicates that we are selecting an item using its "id" value.
- * Try changing the id to something else to see what happens.
- */
-#intro {
- 	background-color: black;
- 	color: white
+p{height: 75px;
+width: 1000px;
 }
+
+ */
+ *{
+	font-family: futura}
+* {
+ 	background-color: #333399;
+ 	color: white;
+ 	font-family: futura;}
 
 #headline {
-	background: orange;
+	background: #333399;
+	color: white;
 }
 
-.text {
-	font-family: Times}
 
 <<<<<<< HEAD
+.text{font-family: futura}
 #Aftermath{background-color: black
 	color: white}
 #Healing{background-color: black
