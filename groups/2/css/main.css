@@ -8,6 +8,11 @@
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
 * {
+<<<<<<< HEAD
+=======
+	margin: 0px;
+	padding: 0px;
+>>>>>>> upstream/master
 }
 
 /* Make it so one of your elements has a red background.
@@ -15,6 +20,7 @@
  * Try changing the id to something else to see what happens.
  */
 #headline {
+<<<<<<< HEAD
 	background: red;
 }
 #quilt_content {
@@ -23,4 +29,16 @@
 
 .bio_text {
 	font-size: 19px;
+=======
+	background: blue;
+}
+
+.bio_text {
+	background: green;
+}
+
+#map {
+	height: 500px;
+	width: 500px;
+>>>>>>> upstream/master
 }
