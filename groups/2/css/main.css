@@ -21,10 +21,10 @@
  */
 #headline {
 <<<<<<< HEAD
-	background: red;
+	background: white;
 }
 #quilt_content {
-	background: red;
+	background: white;
 }
 
 .bio_text {
@@ -34,7 +34,7 @@
 }
 
 .bio_text {
-	background: green;
+	background: white;
 }
 
 #map {
