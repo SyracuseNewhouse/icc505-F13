@@ -8,22 +8,27 @@
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
 * {
-	border: 1px solid black;
-	}
+	padding: 0px;
+	margin: 0px;
+}
 
 /* Make it so one of your elements has a red background.
  * The "#" indicates that we are selecting an item using its "id" value.
  * Try changing the id to something else to see what happens.
  */
- #intro {background-color: black;
- 	color: white}
+#intro {
+ 	background-color: black;
+ 	color: white
+}
+
 #headline {
 	background: orange;
-	}
+}
 
 .text {
 	font-family: Times}
 
+<<<<<<< HEAD
 #Aftermath{background-color: black
 	color: white}
 #Healing{background-color: black
@@ -32,3 +37,11 @@
 	color: white}
 #Legacy{background-color: black
 	color: white}
+=======
+.media iframe {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+}
+>>>>>>> upstream/master
