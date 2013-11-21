@@ -131,7 +131,7 @@
     {
       "number": "",
       "category": "",
-      "show_title": true,
+      "show_title": false,
       "title": "quad",
       "description": "",
       "attribution": "",
@@ -145,7 +145,7 @@
     {
       "number": "",
       "category": "",
-      "show_title": true,
+      "show_title": false,
       "title": "Hendricks",
       "description": "",
       "attribution": "",
@@ -156,10 +156,10 @@
       "background_url": "img/rw_dove.png",
       "booth_url": "buildings/hendricks.html"
     },
-    
+    {
       "number": "",
       "category": "",
-      "show_title": true,
+      "show_title": false,
       "title": "Remembrance Wall",
       "description": "",
       "attribution": "",
