@@ -155,6 +155,20 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "booth_url": "buildings/hendricks.html"
+    },
+    
+      "number": "",
+      "category": "",
+      "show_title": true,
+      "title": "Remembrance Wall",
+      "description": "",
+      "attribution": "",
+      "x": 570,
+      "y": 700,
+      "height": 80,
+      "width": 80,
+      "background_url": "img/rw_dove.png",
+      "booth_url": "buildings/remembrance_wall.html"
     }
        
   ],
