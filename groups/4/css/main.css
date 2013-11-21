@@ -18,6 +18,7 @@
 
 body{ padding:0; margin:0;}
 
+
 #container {animation:onload 2s;
 	-webkit-animation:onload 2s;}
 
@@ -168,3 +169,5 @@ ul li { float:right; list-style:none; padding:10px; font-size:.8em;}
 ul li a { color:#000; text-decoration:none; }
 
 ul {margin-right:10%;}
+
+#about { margin-left:7%; margin-right:7%; font-family:'Open Sans', sans-serif; font-size:.8em;}
