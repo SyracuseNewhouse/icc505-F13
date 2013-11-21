@@ -24,7 +24,6 @@ $(function () {
 		if($window.scrollTop() + $window.height() > scroll_trigger.offset().top
 		&& scroll_trigger.is(":visible"))
 			load_next_segment();
-		console.log($window.scrollTop() + $window.height() + " || " + scroll_trigger.offset().top)
 	})
 
 	// We want to keep track of which segment we're on.
@@ -85,15 +84,14 @@ $(function () {
            video_url + "?autoplay=1");
 
 		video.cue( 1, function() {
-		    this.cue(this.duration() - 5, function() {
+		    this.cue(this.duration(), function() {
 		    	// The video is over!
 		    	
 		    	// Hide the video
-		    	video_container.fadeOut(1000, function() {
+		    	video_container.fadeOut(100, function() {
 			    	// Show the text
-			    	text_container.fadeIn();
+			    	text_container.fadeIn(1000);
 		    	});
-
 
 		    	// Set the scroll-forcer
 		    	scroll_trigger.css("top", 200 + Math.max(text_container.offset().top + text_container.height(), $(document).height()));
@@ -103,12 +101,8 @@ $(function () {
 	}
 
 	var finished = function() {
-
+		scroll_trigger.hide();
 	}
-
-	// Hide the ending
-	$("#ending").hide();
-	
 
 	// Start the show when the start button is pressed!
 	$("#story_link").click(function() {
