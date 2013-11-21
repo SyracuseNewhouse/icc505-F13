@@ -12,12 +12,8 @@ h1{
 	position: absolute;
 }
 
-.caption{
-	position: absolute;
-}
-
 .pop_up{
-	/*display: none;*/
+	display: none;
 	position: absolute;
 }
 
@@ -39,26 +35,135 @@ h1{
 }
 
 #before_pan_am{
-	top: 124px;
-	left: 30px;
+	width: 328px;
+	height: 170px;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid black;
+	top: 337px;
+	left: 567px;
 }
 
 #map{
-	top: 230px;
+	top: 200px;
 	left: 75px;
 }
 
 #map_caption{
-	top: 545px;
-	left: 10px;
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	border: 0px;
+	top: 510px;
+	left: 80px;
 }
 
 #map_pop_up{
-	top: 320px;
-	left: 180px;
+	width: 450px;
+	height: 200px;
+	padding: 10px 20px 10px 20px;
+	border: 0px;
+	top: 250px;
+	left: 360px;
+	background-color: pink;
 }
 
 #quote{
+	width: 450px;
+	height: 50px;
+	padding: 10px 20px 10px 20px;
+	border: 1px black solid;
+	top: 600px;
+	left: 340px;
+}
+
+#quote_pop_up{
+	top: 650px;
+	left: 440px;
+	width: 600px;
+	height: 150px;
+	padding: 10px 20px 10px 20px;
+	border: 0px;
+	background-color: pink;
+}
+
+#benefits{
+	width: 450px;
+	height: 50px;
+	padding: 10px 20px 10px 20px;
+	border: 1px black solid;
+	top: 730px;
+	left: 80px;
+}
+
+#benefits_pop_up{
+	top: 780px;
+	left: 240px;
+	width: 600px;
+	height: 365px;
+	padding: 10px 20px 10px 20px;
+	border: 0px;
+	background-color: pink;
+}
+
+#sharing{
+	width: 300px;
+	height: 70px;
+	padding: 10px 20px 10px 20px;
+	border: 1px black solid;
 	top: 700px;
-	left: 10px;
+	left: 640px;
+}
+
+#sharing_pop_up{
+	top: 750px;
+	left: 280px;
+	width: 600px;
+	height: 220px;
+	padding: 10px 20px 10px 20px;
+	border: 0px;
+	background-color: pink;
+}
+
+#changes{
+	width: 300px;
+	height: 70px;
+	padding: 10px 20px 10px 20px;
+	border: 1px black solid;
+	top: 820px;
+	left: 30px;
+}
+
+#changes_pop_up{
+	top: 890px;
+	left: 100px;
+	width: 600px;
+	height: 420px;
+	padding: 10px 20px 10px 20px;
+	border: 0px;
+	background-color: pink;
+}
+
+#jttf{
+	top: 870px;
+	left: 500px;
+	border: 1px solid black;
+}
+
+#jttf_pop_up{
+	top: 500px;
+	left: 100px;
+	width: 600px;
+	height: 720px;
+	padding: 10px 20px 10px 20px;
+	border: 0px;
+	background-color: pink;
+}
+
+#jttf_caption{
+	width: 350px;
+	height: 40px;
+	text-align: center;
+	border: 0px;
+	top: 1148px;
+	left: 510px;
 }
