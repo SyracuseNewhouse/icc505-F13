@@ -8,25 +8,19 @@
 		<div id="container">
 			<h1 id="headline">Interact</h1>
 			<div class="content">
-			    <p><u>Question</u>: What would you put in the blue boxes?<br>What will happen here is that the user will click on the box and the aforementioned question will pop in another window. Underneath this question, there will be a box where the user can insert his or her comment.</p>
+		    	<h2 class="question"><label>Question:</label> What would you put in the blue boxes?</h2>
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+					var disqus_shortname = 'panam103';
+
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+				</script>			    
 			</div>
-			<div class="share">
-				<div class="twitter">
-					<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div>
-				<div class="facebook">
-					<div id="fb-root"></div>
-					<script>(function(d, s, id) {
-					  var js, fjs = d.getElementsByTagName(s)[0];
-					  if (d.getElementById(id)) return;
-					  js = d.createElement(s); js.id = id;
-					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=236583576504015";
-					  fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));</script>
-					<div class="fb-share-button" data-type="button_count"></div>
-				</div>
-				<div class="embed">(INSERT EMBED CODE HERE)</div>
 			</div>
 		</div>
 	</body>
