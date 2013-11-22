@@ -40,13 +40,17 @@ audio {width:42px;width: 42px;
 /*flip container rules */
 
 .flip-container {
+    perspective: 1000;
 	-webkit-perspective: 1000;
+    -moz-perspective: 1000;
 	float:left;
 	margin:10px;
 }
 	/* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
-	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
 	}
 
 .flip-container, .front, .back {
@@ -57,16 +61,20 @@ audio {width:42px;width: 42px;
 
 /* flip speed goes here */
 .flipper {
+    transition: 0.6s;
+	transform-style: preserve-3d;
 	-webkit-transition: 0.6s;
 	-webkit-transform-style: preserve-3d;
-
+    -moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
 	position: relative;
 }
 
 /* hide back of pane during swap */
 .front, .back {
+    backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
-
+    -moz-backface-visibility: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -79,7 +87,9 @@ audio {width:42px;width: 42px;
 
 /* back, initially hidden pane */
 .back {
+    transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
 }
 
 #headline {

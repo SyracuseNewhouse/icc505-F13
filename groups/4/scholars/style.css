@@ -41,6 +41,7 @@ audio {width:42px;width: 42px;
 .flip-container {
     perspective: 1000;
 	-webkit-perspective: 1000;
+    -moz-perspective: 1000;
 	float:left;
 	margin:10px;
 }
@@ -48,6 +49,7 @@ audio {width:42px;width: 42px;
 .flip-container:hover .flipper, .flip-container.hover .flipper {
     transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
 	}
 
 .flip-container, .front, .back {
@@ -62,7 +64,8 @@ audio {width:42px;width: 42px;
 	transform-style: preserve-3d;
 	-webkit-transition: 0.6s;
 	-webkit-transform-style: preserve-3d;
-
+    -moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
 	position: relative;
 }
 
@@ -70,7 +73,7 @@ audio {width:42px;width: 42px;
 .front, .back {
     backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
-
+    -moz-backface-visibility: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -85,6 +88,7 @@ audio {width:42px;width: 42px;
 .back {
     transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
 }
 
 #headline {
