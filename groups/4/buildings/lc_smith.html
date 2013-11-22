@@ -1,10 +1,35 @@
 <html>
 	<head>
     <link rel="stylesheet" href="style.css"/>
-<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Oswald' rel='stylesheet' type='text/css'/>
-<link href='http://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
-    </head>
-	<body>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Oswald' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+    <style>
+        /* Prevents slides from flashing */
+        #slides {
+            display:none;
+        }
+    </style>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
+</head>
+<body>
+    <div id="slides">
+        <img src="img/engineering1">
+        <img src="img/enineering2">
+        <img src="img/engineering3">
+        <img src="http://placehold.it/940x528">
+        <img src="http://placehold.it/940x528">
+    </div>
         
     <div class="main">
         
