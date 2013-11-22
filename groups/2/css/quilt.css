@@ -1,0 +1,21 @@
+#quilt {
+	width: 900px;
+	height: 750px;
+	margin: auto;
+}
+
+#quilt li {
+	height: 150px;
+	width: 100px;
+	padding: 10px;
+	float: left;
+	background: yellow;
+	list-style: none;
+	cursor: pointer;
+}
+
+#active_bio {
+	width: 900px;
+	height: 750px;
+	margin: auto;
+}

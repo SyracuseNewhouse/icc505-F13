@@ -6,6 +6,9 @@ $(function () {
 	// See http://api.jquery.com/category/selectors/ fo more information.
 	var items = $("#map_items li");
 
+	// Hide the items
+	items.hide();
+
 	// Load in the map using Leaflet
 	// See http://leafletjs.com/reference.html for more information.
 	var map = L.map('map',{
