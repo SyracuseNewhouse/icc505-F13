@@ -7,7 +7,7 @@ audio {width:42px;width: 42px;
 
 .audio_icon{ position:absolute; top:7px; left:7px; }
 
-.main{ margin:0 auto; max-width:1200px;}
+.main{ margin:0 auto; width:57%;}
 
 .blocks {
 	float:left; 
