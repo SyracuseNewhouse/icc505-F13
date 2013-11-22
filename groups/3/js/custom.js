@@ -40,6 +40,10 @@ jQuery(document).ready(function() {
 		jQuery("#jttf_pop_up").css("display", "none");
 	});
 
-
+	jQuery("family").hover(function( {
+		jQuery("#family_pop_up").css("display", "block");
+	}, function(){
+		jQuery("#family_pop_up").css("display", "none");
+	});
 
 }); //ready method end
