@@ -8,8 +8,10 @@
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
 * {
+
 	margin: 0px;
 	padding: 0px;
+
 }
 
 /* Make it so one of your elements has a red background.
@@ -17,11 +19,19 @@
  * Try changing the id to something else to see what happens.
  */
 #headline {
+	background: white;
+}
+#quilt_content {
+	background: white;
+}
+
+.bio_text {
+	font-size: 19px;
 	background: blue;
 }
 
 .bio_text {
-	background: green;
+	background: white;
 }
 
 #map {
