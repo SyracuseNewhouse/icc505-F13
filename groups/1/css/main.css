@@ -19,16 +19,13 @@
 	background: orange;
 }
 
-#keyframes {width: 500px; position: absolute;top: 300px; position: absolute;left: 100px;
+#keyframes {width: 500px; position: absolute;top: 150px; position: absolute;left: 385px;
 }
 
-.information {font-size: large; margin-left: 5px; margin-right: 5px; border-width: 0px;
+.information {font-size: large; margin-left: 5px; margin-right: 5px;
 }
 
 .headline {font-size: x-large;
-}
-
-.image {border-width: 0px;
 }
 
 #video {width: 800px; height: 400px;
