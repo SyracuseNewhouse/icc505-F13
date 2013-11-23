@@ -1,0 +1,122 @@
+<html>
+	<head>
+    <link rel="stylesheet" href="style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Oswald' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'/>
+    <style>
+        /* Prevents slides from flashing */
+        #slides {
+            display:none;
+            margin-top:100px;
+        }
+        a.slidesjs-next,
+        a.slidesjs-previous,
+        a.slidesjs-play,
+        a.slidesjs-stop {
+            background-image: url(img/btns-next-prev.png);
+            background-repeat: no-repeat;
+            display:block;
+            width:12px;
+            height:18px;
+            overflow: hidden;
+            text-indent: -9999px;
+            float: left;
+            margin-right:5px;
+            margin-top:10px;
+        }
+        a.slidesjs-next {
+            margin-right:10px;
+            background-position: -12px 0;
+        }
+        a.slidesjs-previous {
+            background-position: 0 0;
+        }
+    </style>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
+</head>
+<body>
+        
+    <div class="main">
+        <div id="slides"> 
+            <img src="img/falk1.jpg">
+            <img src="img/falk3.jpg">
+        </div>
+        
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<img src="img/sieglinder_mghenyi.jpg"/>
+				<div class="name">
+					Sieglinder Mghenyi 
+				</div>
+			</div>
+			<div class="back">
+				<img src="img/christopher_jones.jpg"/>
+				<div class="name">
+					Christopher Jones
+				</div>
+            </div>
+        </div>
+    </div><!--end flip container-->
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<img src="img/clifford_jacobs.jpg"/>
+				<div class="name">
+					Clifford Jacobs 
+				</div>
+			</div>
+			<div class="back">
+				<img src="img/suzanne_miazga.jpg"/>
+				<div class="name">
+					Suzanne Miazga
+				</div>
+            </div>
+        </div>
+    </div><!--end flip container-->
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<img src="img/ariella_davis.jpg"/>
+				<div class="name">
+					Ariella Davis 
+				</div>
+			</div>
+			<div class="back">
+				<img src="img/kesha_weedon.jpg"/>
+				<div class="name">
+					Kesha Weedon
+				</div>
+            </div>
+        </div>
+    </div><!--end flip container-->
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<img src="img/janessa_bonti.jpg"/>
+				<div class="name">
+					Janessa Bonti 
+				</div>
+			</div>
+			<div class="back">
+				<img src="img/theodora_cohen.jpg"/>
+				<div class="name">
+                    Theodora Cohen
+				</div>
+            </div>
+        </div>
+    </div><!--end flip container-->      
+</div>
+</body>
+</html>

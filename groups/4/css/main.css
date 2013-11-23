@@ -18,6 +18,7 @@
 
 body{ padding:0; margin:0;}
 
+
 #container {animation:onload 2s;
 	-webkit-animation:onload 2s;}
 
@@ -69,3 +70,104 @@ to {opacity:1;}
 from {opacity:0;}
 to {opacity:1;}
 }
+
+
+audio {width:42px;width: 42px;
+	top: 0px;
+	position: absolute;
+}
+
+.audio_icon{ position:absolute; top:7px; left:7px; }
+
+.main{ margin:0 auto; max-width:1200px;}
+
+.blocks {
+	float:left; 
+	font-size:2.7em;
+	padding:5px;
+	font-family:'Oswald', sans-serif;
+	background-color:#26466D; 
+	color:#fff; 
+	width: 140px; 
+	height: 175px; 
+	margin:10px;
+	text-align:center;
+	line-height:1.7em;
+}
+
+.name{
+	position:absolute; 
+	background-color:#000; 
+	bottom:0px; 
+	text-align:center; 
+	color:#fff; 
+	opacity:.7;
+	width:100%;
+	font-family:'Noto Sans',sans serif;
+	font-size: .8em;
+	padding:3px 0px 3px 0px;
+}
+
+/*flip container rules */
+
+.flip-container {
+	-webkit-perspective: 1000;
+	float:left;
+	margin:10px;
+}
+	/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	-webkit-transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 150px;
+	overflow:hidden;
+	height: 185px;
+}
+
+/* flip speed goes here */
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	-webkit-backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+	-webkit-transform: rotateY(180deg);
+}
+
+#headline {
+	font-size: 1.5em; 
+    float:left; 
+    margin-left:8%; 
+    font-weight: normal; 
+    font-family:'Cedarville Cursive', sans-serif;
+}
+
+header { background-color: #fff; float:left; width:100%; font-family:'Open Sans', sans-serif; }
+#about_content {background: orange;}
+
+ul li { float:right; list-style:none; padding:10px; font-size:.8em;}
+
+ul li a { color:#000; text-decoration:none; }
+
+ul {margin-right:10%;}
+
+#about { margin-left:7%; margin-right:7%; font-family:'Open Sans', sans-serif; font-size:.8em;}
