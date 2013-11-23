@@ -56,7 +56,6 @@
 
 
 .box_label {
-	background: DarkBlue;
 	color: white;
 	font-size: 17px;
 	text-align: center;
@@ -79,3 +78,4 @@
 	width: 100%;
 	border: 0px;
 }
+
