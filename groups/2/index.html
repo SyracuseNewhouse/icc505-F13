@@ -2,11 +2,16 @@
 <html>
 	<head>
 		<title>Team 2</title>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	    <script src="http://maps.google.com/maps/api/js?v=3.2&sensor=false"></script>
+		<script src="js/lib/leaflet/leaflet.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="js/lib/leaflet/leaflet.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
 		<div id="container">
-			<h1 id="headline">Team 2</h1>
+			<h1 id="headline">This is an example!</h1>
 			<ul id="navigation">
 				<li id="tour_link">Guided Tour</li>
 				<li id="explore_link">Explore on your Own</li>
@@ -19,7 +24,22 @@
 			</div>
 			
 			<div id="map_content">
-				<div id="map"></div>
+				<div id="map">
+				</div>
+				<ul id="map_items">
+					<li data-lat="51.5056" data-lng="0.0756">
+						<h2>Tower Bridge</h2>
+						<div class="description">
+							<p>The bridge, which is not the reference is the popular nursery rhyme "London Bridge is Falling Down," sits on the River Thames and is named so because of its proximity to the Tower of London. It was frequent for the students to take photos with the bridge in the background.</p>
+						</div>
+					</li>
+					<li data-lat="51.5010" data-lng="0.1420">
+						<h2>Buckingham Palace</h2>
+						<div class="description">
+							<p>The palace, which is the official residence of the British Monarch, is a popular destination for those abroad as tourists or students. At the time of their semester in London, the 1988 students were witness to the same Monarch then as exists now, Queen Elizabeth II.</p>
+						</div>
+					</li>
+				</ul>
 			</div>
 
 			<div id="quilt_content">

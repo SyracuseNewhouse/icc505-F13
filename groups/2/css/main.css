@@ -8,7 +8,8 @@
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
 * {
-	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
 }
 
 /* Make it so one of your elements has a red background.
@@ -16,5 +17,14 @@
  * Try changing the id to something else to see what happens.
  */
 #headline {
-	background: red;
+	background: blue;
+}
+
+.bio_text {
+	background: green;
+}
+
+#map {
+	height: 500px;
+	width: 500px;
 }
