@@ -79,7 +79,7 @@ $(function () {
 		video_container.empty();
 
 		// Load the Popcorn video
-		var video = Popcorn.youtube(
+		var video = Popcorn.vimeo(
            video_id,
            video_url + "?autoplay=1");
 

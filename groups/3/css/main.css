@@ -1,30 +1,87 @@
-/* This file is where you define the way your page should look.
- * We will go over how CSS works, but the basic idea is you can identify what items you want to change, and then say how you want to change it.
- */
+h1{
+	text-align: center;
+	font-size: 72px;
+	font-family: arial;
+}
 
+.fix{
+	clear: both;
+}
 
-/* Make it so there is a black border around every HTML element.
- * The "*" that shows before the "{ border: 1px solid black; }" below means "apply this to everything."
- * Try editing the 1 to a 2 and see what happens, or pick a different color.
- */
-* {
+.note{
+	position: absolute;
+}
+
+.card{
+	position: absolute;
+	cursor: pointer;
+}
+
+.photo{
+
+}
+
+#container{
+	width: 1000px;
+	height: 1200px;
+	margin: auto;
 	border: 1px solid black;
+	position: relative;
 }
 
-/* Make it so one of your elements has a red background.
- * The "#" indicates that we are selecting an item using its "id" value.
- * Try changing the id to something else to see what happens.
- */
-
-#headline {
-	padding: 10px;
+#joint_investigations{
+	top: 190px;
+	left: 70px;
 }
 
-#side_navigation {
-	list-style-type: none;
+#libya{
+	top: 49px;
+	left: 388px;
 }
 
-.page_1 {
-	background: green;
+#airline_security{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	top: 33px;
+	left: 497px;
 }
 
+#day_to_day_life{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	top: 283px;
+	left: 128px;
+}
+
+/*#video{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	top: 300px;
+	left: 190px;
+}*/
+
+#laws{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	top: 338px;
+	left: 550px;
+}
+
+#media_coverage{
+	top: 532px;
+	left: 41px;
+}
+
+#lockerbie{
+	top: 600px;
+	left: 315px;
+}
+
+#terrorism{
+	top: 700px;
+	left: 500px;
+}
