@@ -18,6 +18,7 @@ $(function () {
 	scroll_trigger.hide();
 	scroll_trigger.appendTo($("body"));
 
+
 	// Add a check for scrolling
 	var $window = $(window);
 	$window.scroll(function() {
@@ -84,7 +85,7 @@ $(function () {
            video_url + "?autoplay=1");
 
 		video.cue( 1, function() {
-		    this.cue(this.duration(), function() {
+		    this.cue(this.duration()-1, function() {
 		    	// The video is over!
 		    	
 		    	// Hide the video
