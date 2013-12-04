@@ -27,6 +27,7 @@ h1{
 	margin: auto;
 	border: 1px solid black;
 	position: relative;
+	background-image: url('images/corkboard.jpg');
 }
 
 #joint_investigations{
