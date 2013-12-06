@@ -1,4 +1,9 @@
 $(function() {
+    
+  $('body').one('click', function(){
+        console.log('clicked!');
+        $('#overlay').fadeOut();
+  });
 
   // Load in the map data
   var $map = $("#map");
@@ -23,4 +28,7 @@ $(function() {
     // Add the character to the map
     $character.data("GunshowCharacter").enterSpace($map.data("Gunshow"), 600, 800);
   });
+    
+  
+    
 })
