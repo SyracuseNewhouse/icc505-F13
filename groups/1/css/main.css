@@ -16,17 +16,33 @@
  * Try changing the id to something else to see what happens.
  */
 #headline {
-	background: blue;
+	background: orange;
 }
 
-#keyframes {width: 500px
+#keyframes {width: 500px; position: absolute;top: 150px; position: absolute;left: 385px;
 }
 
-.information {font-size: large; margin-left: 5px; margin-right: 5px; border-width: 0px;
+#keyframes {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+
+}
+
+#keyframes:hover {
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+}
+
+
+.information {font-size: large; margin-left: 5px; margin-right: 5px;
 }
 
 .headline {font-size: x-large;
 }
 
-.image {border-width: 0px;
+#video {width: 800px; height: 400px;
 }
