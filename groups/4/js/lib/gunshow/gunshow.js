@@ -77,6 +77,7 @@
         booth.number = self.options.booths[i].number;
         booth.title = self.options.booths[i].title;
         booth.show_title = self.options.booths[i].show_title;
+        booth.title_background_url = self.options.booths[i].title_background_url;
 
         // Create the visual object
         var $booth = $("<div />")
@@ -230,8 +231,8 @@
       var self = this;
       if(self.currentBooth != booth) {
         self.currentBooth = booth;
-
         self.$infoBar.html("<h1>" + booth.title + "</h1>")
+          .css("background","url(" + booth.title_background_url + ")")
           .slideDown(1000, function(){ setTimeout(function(){ self.$infoBar.fadeOut(1000)},3000) })
 
         self.setViewport(
