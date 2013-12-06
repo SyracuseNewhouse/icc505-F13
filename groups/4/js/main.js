@@ -5,6 +5,8 @@ $(function() {
         $('#overlay').fadeOut();
   });
 
+
+
   // Load in the map data
   var $map = $("#map");
   $.ajax({
