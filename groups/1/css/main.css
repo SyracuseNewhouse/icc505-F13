@@ -22,22 +22,6 @@
 #keyframes {width: 500px; position: absolute;top: 150px; position: absolute;left: 385px;
 }
 
-#keyframes {
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
-  -ms-transition: all 2s ease-in-out;
-  -o-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
-
-}
-
-#keyframes:hover {
-  -webkit-opacity: 0.25;
-  -moz-opacity: 0.25;
-  opacity: 0.25;
-}
-
-
 .information {font-size: large; margin-left: 5px; margin-right: 5px;
 }
 
