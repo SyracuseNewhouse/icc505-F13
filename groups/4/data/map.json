@@ -14,7 +14,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/Newhouse.html"
+      "booth_url": "buildings/newhouse.html"
     },
     {
       "number": "",
@@ -28,7 +28,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/Whitman.html"
+      "booth_url": "buildings/whitman.html"
     },
     {
       "number": "",
@@ -42,7 +42,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/Architecture.html"
+      "booth_url": "buildings/architecture.html"
     },
     {
       "number": "",
@@ -56,7 +56,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/Arts and Sciences.html"
+      "booth_url": "buildings/arts_and_sciences.html"
     },
     {
       "number": "",
@@ -70,7 +70,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/Falk.html"
+      "booth_url": "buildings/falk.html"
     },
     {
       "number": "",
@@ -84,7 +84,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/iSchool.html"
+      "booth_url": "buildings/ischool.html"
     },
     {
       "number": "",
@@ -112,7 +112,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/School of Ed.html"
+      "booth_url": "buildings/school_of_ed.html"
     },
     {
       "number": "",
@@ -126,7 +126,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/VPA.html"
+      "booth_url": "buildings/vpa.html"
     },
     {
       "number": "",
@@ -140,7 +140,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/Quad.html"
+      "booth_url": "buildings/quad.html"
     },
     {
       "number": "",
