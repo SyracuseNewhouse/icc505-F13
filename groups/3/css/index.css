@@ -1,35 +1,3 @@
-h1{
-	text-align: center;
-	font-size: 72px;
-	font-family: arial;
-}
-
-.fix{
-	clear: both;
-}
-
-.note{
-	position: absolute;
-}
-
-.card{
-	position: absolute;
-	cursor: pointer;
-}
-
-.photo{
-
-}
-
-#container{
-	width: 1000px;
-	height: 1200px;
-	margin: auto;
-	border: 1px solid black;
-	position: relative;
-	background-image: url('images/corkboard.jpg');
-}
-
 #joint_investigations{
 	top: 190px;
 	left: 70px;

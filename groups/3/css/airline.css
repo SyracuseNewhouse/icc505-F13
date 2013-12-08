@@ -1,39 +1,30 @@
-h1{
-	text-align: center;
-	font-size: 72px;
-	font-family: arial;
-}
-
-.fix{
-	clear: both;
-}
-
-.note{
-	position: absolute;
-}
-
-.pop_up{
-	display: none;
-	position: absolute;
-}
-
-.card{
-	position: absolute;
-	cursor: pointer;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-}
-
-#container{
-	width: 1000px;
-	height: 1200px;
-	margin: auto;
-	border: 1px solid black;
-	position: relative;
-}
-
 #rifles{
-	top: 200px;
-	left: 135px;
+	top: 65px;
+	left: 0px;
+	-webkit-transform: rotate(5deg);
+}
+
+#security{
+	top: 100px;
+	left: 350px;
+	-webkit-transform: rotate(-2deg);
+}
+
+#airports{
+	top: 420px;
+	left: 20px;
+	-webkit-transform: rotate(-4deg);
+}
+
+#family{
+	top: 400px;
+	left: 450px;
+	-webkit-transform: rotate(1deg);
+}
+
+#event{
+	top: 730px;
+	left: 220px;
 	-webkit-transform: rotate(5deg);
 }
 
@@ -45,47 +36,3 @@ h1{
 	top: 510px;
 	left: 80px;
 }*/
-
-#security{
-	left: 599px;
-	top: 257px;
-	-webkit-transform: rotate(-2deg);
-}
-
-#security_pop_up{
-	width: 450px;
-	height: 200px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 327px;
-	left: 630px;
-	background-color: pink;
-}
-
-#airports{
-	left: 50px;
-	top: 587px;
-	-webkit-transform: rotate(-4deg);
-}
-
-#airports_pop_up{
-	width: 450px;
-	height: 550px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 607px;
-	left: 120px;
-	background-color: pink;
-}
-
-#family{
-	left: 670px;
-	top: 613px;
-	-webkit-transform: rotate(1deg);
-}
-
-#event{
-	left: 380px;
-	top: 863px;
-	-webkit-transform: rotate(5deg);
-}
