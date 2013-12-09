@@ -1,3 +1,8 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
 h1{
 	text-align: center;
 	font-size: 72px;
@@ -9,12 +14,26 @@ body{
 	position: relative;
 }
 
+.more{
+	display: none;
+	cursor: pointer;;
+	font-family: "Open Sans", sans;
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+	margin-top: 29px;
+	background-color: #0175a4;
+	color: white;
+}
+
 .note{
 	position: absolute;
 }
 
 .card{
 	position: absolute;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	cursor: pointer;
 }
 
@@ -30,13 +49,29 @@ body{
 }
 
 #popup_content {
+	font-family: "Droid Serif", serif;
 	z-index: 500;
 	position: fixed;
-	height: 523px;
+	height: 60%;
 	width: 300px;
-	padding: 0px 25px;
+	padding: 25px;
 	right: 50px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	top: 50px;
 	background: white;
+}
+
+#popup_content .sample{
+	height: 80%;
 	overflow: auto;
+}
+
+#popup_content .full{
+	height: 100%;
+	overflow: auto;
+}
+
+#popup_content p{
+	line-height: 26px;
+	font-size: 15px;
 }

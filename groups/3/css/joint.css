@@ -13,32 +13,27 @@
 #quote{
 	top: 420px;
 	left: 120px;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(-4deg);
 }
 
 #benefits{
 	top: 400px;
 	left: 550px;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(-3deg);
 }
 
 #jttf{
 	top: 720px;
 	left: 290px;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 #sharing{
 	top: 1040px;
 	left: 111px;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(0deg);
 }
 
 #changes{
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(4deg);
 	top: 1046px;
 	left: 530px;

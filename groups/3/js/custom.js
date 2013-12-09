@@ -1,8 +1,8 @@
 jQuery(document).ready(function() {
 
-	jQuery("#joint_investigations").click();
+	jQuery("#joint").click();
 
-	jQuery("airline_security").click();
+	jQuery("airline").click();
 
 	jQuery("media").click();
 
