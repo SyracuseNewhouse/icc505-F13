@@ -1,9 +1,20 @@
 $(function() {
     
+// map overlay
+    
   $('body').one('click', function(){
         console.log('clicked!');
         $('#overlay').fadeOut();
   });
+    
+ // building slideshow
+
+   $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
 
 
 
