@@ -15,7 +15,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "title_background_url": "img/buildings/newhouse.jpg",
-      "booth_url": "buildings/newhouse.html"
+      "booth_url": "img/buildings/newhouse.html"
 
     },
     {
@@ -77,7 +77,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/nyan.jpg",
+      "title_background_url": "img/buildings/lyman.jpg",
       "booth_url": "buildings/falk.html"
     },
     {
@@ -138,7 +138,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/nyan.jpg",
+      "title_background_url": "img/buildings/crouse.jpg",
       "booth_url": "buildings/vpa.html"
     },
     {
@@ -153,7 +153,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/nyan.jpg",
+      "title_background_url": "img/buildings/quad.jpg",
       "booth_url": "buildings/quad.html"
     },
     {
@@ -169,7 +169,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "booth_url": "buildings/hendricks.html",
-      "title_background_url": "img/buildings/nyan.jpg"
+      "title_background_url": "img/buildings/hendricks.jpg"
     },
     {
       "number": "",
@@ -184,7 +184,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "booth_url": "buildings/candlelight_vigil.html",
-      "title_background_url": "img/buildings/nyan.jpg"
+      "title_background_url": "img/buildings/quad.jpg"
     },
     {
       "number": "",
@@ -199,7 +199,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "booth_url": "buildings/remembrance_wall.html",
-      "title_background_url": "img/buildings/nyan.jpg"
+      "title_background_url": "img/buildings/remembrance_wall.jpg"
     }
        
   ],
