@@ -14,7 +14,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/nyan.jpg",
+      "title_background_url": "img/buildings/newhouse.jpg",
       "booth_url": "buildings/newhouse.html"
 
     },
@@ -31,7 +31,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "booth_url": "buildings/Whitman.html",
-      "title_background_url": "img/buildings/nyan.jpg",
+      "title_background_url": "img/buildings/whitman.jpg",
       "booth_url": "buildings/whitman.html"
 
     },
@@ -47,7 +47,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/nyan.jpg",
+      "title_background_url": "img/buildings/architecture.jpg",
       "booth_url": "buildings/architecture.html"
     },
     {
@@ -62,7 +62,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/nyan.jpg",
+      "title_background_url": "img/buildings/arts_and_sciences.jpg",
       "booth_url": "buildings/arts_and_sciences.html"
     },
     {
@@ -92,7 +92,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/nyan.jpg",
+      "title_background_url": "img/buildings/ischool.jpg",
       "booth_url": "buildings/ischool.html"
 
     },
@@ -109,7 +109,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "booth_url": "buildings/lc_smith.html",
-      "title_background_url": "img/buildings/nyan.jpg"
+      "title_background_url": "img/buildings/lc_smith.jpg"
     },
     {
       "number": "",
@@ -123,7 +123,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/nyan.jpg",
+      "title_background_url": "img/buildings/school_of_ed.jpg",
       "booth_url": "buildings/school_of_ed.html"
     },
     {
