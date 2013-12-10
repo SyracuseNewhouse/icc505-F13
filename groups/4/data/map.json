@@ -175,7 +175,7 @@
       "number": "",
       "category": "",
       "show_title": false,
-      "title": "Hendricks",
+      "title": "Candlelight Vigil",
       "description": "",
       "attribution": "",
       "x": 550,
@@ -183,7 +183,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "booth_url": "buildings/candlelight.html",
+      "booth_url": "buildings/candlelight_vigil.html",
       "title_background_url": "img/buildings/nyan.jpg"
     },
     {
