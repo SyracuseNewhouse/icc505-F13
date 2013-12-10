@@ -14,32 +14,46 @@
 
 }
 
+body {
+	font-family: 'Droid Serif';
+	background-color: #EFEFEF;
+}
+
 /* Make it so one of your elements has a red background.
  * The "#" indicates that we are selecting an item using its "id" value.
  * Try changing the id to something else to see what happens.
  */
-#headline {
-	background: white;
-}
-#quilt_content {
-	background: white;
+
+#navigation {
+	width: 80%;
+	max-width: 400px;
+	margin: auto;
+	margin-bottom: 20px;
+	height: 50px;
+
 }
 
-.bio_text {
-	font-size: 19px;
-	background: blue;
+#navigation li {
+	width: 50%;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 50px;
 }
 
-.bio_text {
-	background: white;
+#navigation li a {
+	text-decoration: none;
+	font-family: "Open Sans";
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+
 }
 
-#map {
-	height: 500px;
-	width: 500px;
-	background: red;
-}
-
-.bio_text {
-	font-size: 19px;
+#explanation {
+	text-align: center;
+	width: 45%;
+	margin: auto;
+	margin-bottom: 20px;
+	line-height: 30px;
 }
