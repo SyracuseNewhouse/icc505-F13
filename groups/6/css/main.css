@@ -16,42 +16,35 @@
  * The "#" indicates that we are selecting an item using its "id" value.
  * Try changing the id to something else to see what happens.
  */
-#headline {
-	background: DarkBlue;
-	color: white;
-}
+ body {
+ 	background: #EDEDED;
+ 	font-family: "Droid Serif";
+ }
 #grid {
-	background: gray;
-	width: 830px;
-	height: 830px;
+	width: 80%;
 	margin: auto;
 }
 #container {
-	background: gray;
 	color: black;
 }
 #img src {
 	height: 100px;
 }
 #grid li {
-    background: DarkBlue;
-    height: 150px;
-    width: 150px;
     list-style: none; 
     float: left;
-    margin: 5px;
-    border: 3px solid black;
+    border-right: 1px solid white;
 	text-align: center;
 	display:table;
+	background: #888888;
+	padding: 15px;
 }
 
 #grid li.enabled {
 	cursor: pointer;
-	border-color: green;
 }
 
 #grid li.highlighted {
-	background: yellow;
 }
 
 
@@ -68,8 +61,8 @@
 }
 
 #box_content {
-	height: 300px;
-	width: 830px;
+	height: 400px;
+	width: 80%;
 	margin: auto;
 }
 
@@ -77,5 +70,11 @@
 	height: 100%;
 	width: 100%;
 	border: 0px;
+}
+.side_image {
+	float: left;
+}
+p {
+	margin-bottom: 20px;
 }
 
