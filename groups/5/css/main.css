@@ -1,26 +1,41 @@
-/* This file is where you define the way your page should look.
- * We will go over how CSS works, but the basic idea is you can identify what items you want to change, and then say how you want to change it.
- */
-
 * {
 	padding: 0px;
 	margin: 0px;
 }
-p{height: 75px;
-width: 1000px;
+
+body {
+	background: #EDEDED;
+	font-family: 'Open Sans', sans-serif;
 }
 
- */
- *{
-	font-family: futura}
-* {
- 	background-color: #333399;
- 	color: white;
- 	font-family: futura;}
 
-#headline {
-	background: #333399;
-	color: white;
+#container {
+	margin: auto;
+	width: 80%;
+	max-width: 1200px;
+}
+
+p {
+	margin: auto;
+	max-width: 600px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: #111111;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#story_content h2 {
+	border-top: 1px solid #C3C3C3;
+	border-bottom: 1px solid #C3C3C3;
+	color: #9F9F9F;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+	font-weight: normal;
+	font-style: italic;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .media iframe {
@@ -28,12 +43,59 @@ width: 1000px;
 	height: 100%;
 	width: 100%;
 	top: 0px;
-}
-
-.was_clicked {
-	background: red;
+	left: 0px;
 }
 
 .image {
-	
+	margin: 20px;
+}
+
+.image img {
+	width: 100%;
+}
+
+.image.center {
+	margin: auto;
+}
+.image.left {
+	float: left;
+	max-width: 200px;
+}
+.image.right {
+	float: right;
+	max-width: 200px;
+}
+
+.caption {
+	margin-bottom: 20px;
+}
+.image.center .caption {
+	text-align: center;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.caption .name {
+	margin-top: 10px;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	font-size: 21px;
+	font-style: italic;
+	text-align: right;
+}
+.caption .title {
+	text-align: right;
+}
+
+#landing_image {
+	margin-top: 10px;
+	margin-bottom:10px;
+	margin: auto
+}
+#church_glass {
+	width: 400px;
+}
+#wall_image {
+	width: 500px;
+	height:250px;
 }
