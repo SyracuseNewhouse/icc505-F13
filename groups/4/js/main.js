@@ -1,4 +1,22 @@
 $(function() {
+    
+// map overlay
+    
+  $('body').one('click', function(){
+        console.log('clicked!');
+        $('#overlay').fadeOut();
+  });
+    
+ // building slideshow
+
+
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+
+
+
 
   // Load in the map data
   var $map = $("#map");
@@ -23,4 +41,7 @@ $(function() {
     // Add the character to the map
     $character.data("GunshowCharacter").enterSpace($map.data("Gunshow"), 600, 800);
   });
+    
+  
+    
 })
