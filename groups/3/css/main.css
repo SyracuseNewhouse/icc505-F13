@@ -14,9 +14,28 @@ body{
 	position: relative;
 }
 
+audio{
+	display: block;
+	width: 100%;
+}
+
+.container{
+	height: 1350px;
+	width: 100%;
+}
+
+.nav{
+	height: 250px;
+	width: 100%;
+	background-color: #ddd;
+	text-align: center;
+	/*position: fixed;
+	z-index: 600;*/
+}
+
 .more{
 	display: none;
-	cursor: pointer;;
+	cursor: pointer;
 	font-family: "Open Sans", sans;
 	text-transform: uppercase;
 	padding: 10px;
@@ -29,6 +48,7 @@ body{
 
 .note{
 	position: absolute;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 .card{
@@ -74,4 +94,30 @@ body{
 #popup_content p{
 	line-height: 26px;
 	font-size: 15px;
+	padding-bottom: 1em;
+}
+
+#media{
+	top: 24px;
+	left: 5%;
+}
+
+#joint{
+	top: 34px;
+	left: 20%;
+}
+
+#airline{
+	top: 50px;
+	left: 39%;
+}
+
+#terrorism{
+	top: 34px;
+	left: 58%;
+}
+
+#laws{
+	top: 24px;
+	left: 77%;
 }

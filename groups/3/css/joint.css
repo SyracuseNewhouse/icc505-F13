@@ -1,41 +1,45 @@
+.container{
+	height: 1636px;
+}
+
 #before{
-	top: 65px;
+	top: 315px;
 	left: 100px;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(2deg);
 }
 
 #map{
-	top: 100px;
+	top: 350px;
 	left: 450px;
 }
 
 #quote{
-	top: 420px;
+	top: 670px;
 	left: 120px;
 	-webkit-transform: rotate(-4deg);
 }
 
 #benefits{
-	top: 400px;
+	top: 650px;
 	left: 550px;
 	-webkit-transform: rotate(-3deg);
 }
 
 #jttf{
-	top: 720px;
+	top: 970px;
 	left: 290px;
 }
 
 #sharing{
-	top: 1040px;
+	top: 1290px;
 	left: 111px;
 	-webkit-transform: rotate(0deg);
 }
 
 #changes{
 	-webkit-transform: rotate(4deg);
-	top: 1046px;
+	top: 1296px;
 	left: 530px;
 }
 

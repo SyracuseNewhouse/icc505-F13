@@ -22,4 +22,26 @@ jQuery(document).ready(function() {
 		$popup_content.find(".sample").show();
 		$popup_content.find(".full").hide();
 	});
+
+	 $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'audio.mp3');
+        audioElement.setAttribute('autoplay', 'autoplay');
+        //audioElement.load()
+
+        $.get();
+
+        audioElement.addEventListener("load", function() {
+            audioElement.play();
+        }, true);
+
+        $('#deppa').click(function() {
+            audioElement.play();
+        });
+
+        $('#deppa').click(function() {
+            audioElement.pause();
+        });
+    });
+
 });

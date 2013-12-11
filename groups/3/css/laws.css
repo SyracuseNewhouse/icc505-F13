@@ -1,59 +1,63 @@
+.container{
+	height: 1750px;
+}
+
 #faa{
-	top: 65px;
+	top: 315px;
 	left: 100px;
 	-webkit-transform: rotate(-4deg);
 }
 
 #asi{
-	top: 100px;
+	top: 350px;
 	left: 520px;
 	-webkit-transform: rotate(-1deg);
 }
 
 #state{
-	top: 490px;
-	left: 405px;
+	top: 740px;
+	left: 425px;
 	-webkit-transform: rotate(4deg);
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	cursor: default;
 }
 
 #sponsor{
-	top: 460px;
-	left: 155px;
-	-webkit-transform: rotate(2deg);
+	top: 710px;
+	left: 105px;
+	-webkit-transform: rotate(-2deg);
 	cursor: default;
 	z-index: 450;
 }
 
 #explosion{
-	top: 860px;
+	top: 1110px;
 	left: 505px;
 	-webkit-transform: rotate(3deg);
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 #libya{
-	top: 850px;
+	top: 1100px;
 	left: 80px;
 	-webkit-transform: rotate(3deg);
 }
 
 #dot{
-	top: 1170px;
+	top: 1420px;
 	left: 115px;
 	cursor: default;
 }
 
 #gore{
-	top: 1050px;
+	top: 1300px;
 	left: 615px;
 	-webkit-transform: rotate(3deg);
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 #twa{
-	top: 1037px;
+	top: 1287px;
 	left: 395px;
 	z-index: 450;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
