@@ -12,7 +12,7 @@ $(function () {
 	// Load in the map using Leaflet
 	// See http://leafletjs.com/reference.html for more information.
 	var map = L.map('map',{
-		'center': [51.5056, 0.0756],
+		'center': [51.5008, -0.1247],
 		'zoom': 12
 	});
 

@@ -9,7 +9,7 @@
 	width: 100px;
 	padding: 10px;
 	float: left;
-	background: yellow;
+	border: 1px;
 	list-style: none;
 	cursor: pointer;
 }
@@ -23,3 +23,26 @@
 #home_link {
 	margin: 20px;
 }
+
+.bio_text {
+	font-size: 19px;
+	padding: 20px;
+	line-height: 25px;
+	margin-left: 220px;
+}
+
+.name {
+	font-size: 28px;
+	font-weight: bold;
+	padding: 20px;
+	padding-bottom: 0px;
+	font-family: "Open Sans"
+}
+
+#active_bio img {
+	width: 200px;
+	float: left;
+	margin: 20px;
+}
+
+
