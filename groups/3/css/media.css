@@ -1,112 +1,34 @@
-h1{
-	text-align: center;
-	font-size: 72px;
-	font-family: arial;
-}
-
-.fix{
-	clear: both;
-}
-
-.note{
-	position: absolute;
-}
-
-.pop_up{
-	display: none;
-	position: absolute;
-}
-
-.card{
-	position: absolute;
-	cursor: pointer;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-}
-
-#container{
-	width: 1000px;
-	height: 1150px;
-	margin: auto;
-	border: 1px solid black;
-	position: relative;
-}
-
 #coverage{
-	top: 200px;
-	left: 145px;
+	top: 65px;
+	left: 100px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(2deg);
 }
 
-#coverage_pop_up{
-	width: 450px;
-	height: 450px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 250px;
-	left: 105px;
-	background-color: pink;
-}
-
 #airplane{
-	top: 212px;
-	left: 595px;
+	top: 100px;
+	left: 450px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(-4deg);
 }
 
-#airplane_pop_up{
-	width: 450px;
-	height: 320px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 250px;
-	left: 625px;
-	background-color: pink;
-}
-
 #wreckage{
-	top: 532px;
-	left: 87px;
+	top: 420px;
+	left: 120px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(-3deg);
 }
 
-#wreckage_pop_up{
-	width: 450px;
-	height: 585px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 600px;
-	left: 145px;
-	background-color: pink;
-}
-
 #deppa{
-	top: 502px;
-	left: 687px;
+	top: 400px;
+	left: 550px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(0deg);
 }
 
-#deppa_pop_up{
-	width: 450px;
-	height: 650px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 700px;
-	left: 500px;
-	background-color: pink;
-}
-
 #scream{
-	top: 850px;
-	left: 410px;
+	top: 730px;
+	left: 320px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(4deg);
-}
-
-#scream_pop_up{
-	width: 450px;
-	height: 740px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 360px;
-	left: 430px;
-	background-color: pink;
 }

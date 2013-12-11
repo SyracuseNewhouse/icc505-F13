@@ -1,135 +1,60 @@
-h1{
-	text-align: center;
-	font-size: 72px;
-	font-family: arial;
-}
-
-.fix{
-	clear: both;
-}
-
-.note{
-	position: absolute;
-}
-
-.pop_up{
-	display: none;
-	position: absolute;
-}
-
-.card{
-	position: absolute;
-	cursor: pointer;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-}
-
-#container{
-	width: 1000px;
-	height: 1400px;
-	margin: auto;
-	border: 1px solid black;
-	position: relative;
-}
-
 #faa{
-	left: 30px;
-	top: 180px;
+	top: 65px;
+	left: 100px;
 	-webkit-transform: rotate(-4deg);
 }
 
-#faa_pop_up{
-	width: 450px;
-	height: 200px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 220px;
-	left: 95px;
-	background-color: pink;
-}
-
 #asi{
-	left: 460px;
-	top: 240px;
+	top: 100px;
+	left: 520px;
 	-webkit-transform: rotate(-1deg);
-}
-
-#asi_pop_up{
-	width: 450px;
-	height: 200px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 310px;
-	left: 600px;
-	background-color: pink;
-}
-
-#libya{
-	top: 400px;
-	left: 730px;
-	-webkit-transform: rotate(3deg);
-}
-
-#libya_pop_up{
-	width: 450px;
-	height: 200px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 780px;
-	left: 480px;
-	background-color: pink;
 }
 
 #state{
-	top: 583px;
-	left: 320px;
-	-webkit-transform: rotate(-1deg);
+	top: 490px;
+	left: 405px;
+	-webkit-transform: rotate(4deg);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	cursor: default;
 }
 
 #sponsor{
-	top: 567px;
-	left: 50px;
+	top: 460px;
+	left: 155px;
 	-webkit-transform: rotate(2deg);
 	cursor: default;
+	z-index: 450;
 }
 
 #explosion{
 	top: 860px;
-	left: 600px;
+	left: 505px;
 	-webkit-transform: rotate(3deg);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+#libya{
+	top: 850px;
+	left: 80px;
+	-webkit-transform: rotate(3deg);
+}
+
+#dot{
+	top: 1170px;
+	left: 115px;
+	cursor: default;
 }
 
 #gore{
 	top: 1050px;
-	left: 710px;
+	left: 615px;
 	-webkit-transform: rotate(3deg);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 #twa{
 	top: 1037px;
-	left: 440px;
-	width: 300px;
-	height: 135px;
-	padding: 10px;
-	border: 1px solid black;
-	background-color: white;
-}
-
-#twa_pop_up{
-	width: 450px;
-	height: 500px;
-	padding: 10px 20px 10px 20px;
-	border: 0px;
-	top: 780px;
-	left: 480px;
-	background-color: pink;
-}
-
-#dot{
-	top: 870px;
-	left: 80px;
-	width: 300px;
-	padding: 10px;
-	height: 155px;
-	border: 1px solid black;
+	left: 395px;
+	z-index: 450;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
