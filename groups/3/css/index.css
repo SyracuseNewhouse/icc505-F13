@@ -1,32 +1,10 @@
-#media{
-	top: 0px;
-	left: 5%;
-}
-
-#joint{
-	top: 0px;
-	left: 20%;
-}
-
-#laws{
-	top: 0px;
-	left: 39%;
-}
-
-#terrorism{
-	top: 0px;
-	left: 58%;
-}
-
-#airline{
-	top: 0px;
-	left: 77%;
-}
-
-/*#video{
-	height: 200px;
-	width: 300px;
-	border: 1px solid black;
+p{
+	position: absolute;
 	top: 300px;
-	left: 190px;
-}*/
+}
+
+#video{
+	clear: left;
+	margin-left: 28.5%;
+	padding-bottom: 100px;
+}
