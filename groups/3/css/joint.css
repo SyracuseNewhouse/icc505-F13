@@ -1,0 +1,62 @@
+.container{
+	height: 1636px;
+}
+
+#before{
+	top: 315px;
+	left: 100px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(2deg);
+}
+
+#map{
+	top: 350px;
+	left: 450px;
+}
+
+#quote{
+	top: 670px;
+	left: 120px;
+	-webkit-transform: rotate(-4deg);
+}
+
+#benefits{
+	top: 650px;
+	left: 550px;
+	-webkit-transform: rotate(-3deg);
+}
+
+#jttf{
+	top: 970px;
+	left: 290px;
+}
+
+#sharing{
+	top: 1290px;
+	left: 111px;
+	-webkit-transform: rotate(0deg);
+}
+
+#changes{
+	-webkit-transform: rotate(4deg);
+	top: 1296px;
+	left: 530px;
+}
+
+/*#jttf_caption{
+	width: 350px;
+	height: 40px;
+	text-align: center;
+	border: 0px;
+	top: 1148px;
+	left: 510px;
+}
+
+#map_caption{
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	border: 0px;
+	top: 510px;
+	left: 80px;
+}*/

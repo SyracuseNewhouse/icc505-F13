@@ -1,0 +1,27 @@
+.container{
+	height: 1050px;
+}
+
+#french{
+	top: 315px;
+	left: 100px;
+	-webkit-transform: rotate(-2deg);
+}
+
+#twin_towers{
+	top: 350px;
+	left: 450px;
+	-webkit-transform: rotate(5deg);
+}
+
+#shoe{
+	top: 670px;
+	left: 120px;
+	-webkit-transform: rotate(-2deg);
+}
+
+#definition{
+	top: 650px;
+	left: 550px;
+	-webkit-transform: rotate(6deg);
+}

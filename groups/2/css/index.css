@@ -1,0 +1,9 @@
+#quilt {
+	margin: auto;
+	width: 80%;
+	max-width: 1000px;
+}
+
+#quilt img {
+	width: 100%;
+}

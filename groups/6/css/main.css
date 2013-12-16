@@ -8,13 +8,73 @@
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
 * {
-	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
 }
 
 /* Make it so one of your elements has a red background.
  * The "#" indicates that we are selecting an item using its "id" value.
  * Try changing the id to something else to see what happens.
  */
-#headline {
-	background: red;
+ body {
+ 	background: #EDEDED;
+ 	font-family: "Droid Serif";
+ }
+#grid {
+	width: 80%;
+	margin: auto;
 }
+#container {
+	color: black;
+}
+#img src {
+	height: 100px;
+}
+#grid li {
+    list-style: none; 
+    float: left;
+    border-right: 1px solid white;
+	text-align: center;
+	display:table;
+	background: #888888;
+	padding: 15px;
+}
+
+#grid li.enabled {
+	cursor: pointer;
+}
+
+#grid li.highlighted {
+}
+
+
+.box_label {
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	display:table-cell;
+	vertical-align:middle
+}
+
+.box_source {
+	display: none;
+}
+
+#box_content {
+	height: 400px;
+	width: 80%;
+	margin: auto;
+}
+
+#box_content iframe {
+	height: 100%;
+	width: 100%;
+	border: 0px;
+}
+.side_image {
+	float: left;
+}
+p {
+	margin-bottom: 20px;
+}
+

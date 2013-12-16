@@ -1,20 +1,123 @@
-/* This file is where you define the way your page should look.
- * We will go over how CSS works, but the basic idea is you can identify what items you want to change, and then say how you want to change it.
- */
-
-
-/* Make it so there is a black border around every HTML element.
- * The "*" that shows before the "{ border: 1px solid black; }" below means "apply this to everything."
- * Try editing the 1 to a 2 and see what happens, or pick a different color.
- */
-* {
-	border: 1px solid black;
+*{
+	margin: 0px;
+	padding: 0px;
 }
 
-/* Make it so one of your elements has a red background.
- * The "#" indicates that we are selecting an item using its "id" value.
- * Try changing the id to something else to see what happens.
- */
-#headline {
-	background: red;
+h1{
+	text-align: center;
+	font-size: 72px;
+	font-family: arial;
+}
+
+body{
+	background-color: #ededed;
+	position: relative;
+}
+
+audio{
+	display: block;
+	width: 100%;
+}
+
+.container{
+	height: 1350px;
+	width: 100%;
+}
+
+.nav{
+	height: 250px;
+	width: 100%;
+	background-color: #ddd;
+	text-align: center;
+	/*position: fixed;
+	z-index: 600;*/
+}
+
+.more{
+	display: none;
+	cursor: pointer;
+	font-family: "Open Sans", sans;
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+	margin-top: 29px;
+	background-color: #0175a4;
+	color: white;
+}
+
+.note{
+	position: absolute;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.card{
+	position: absolute;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+
+.card .sample {
+	display: none;
+}
+.card .full {
+	display: none;
+}
+
+.photo{
+
+}
+
+#popup_content {
+	font-family: "Droid Serif", serif;
+	z-index: 500;
+	position: fixed;
+	height: 60%;
+	width: 300px;
+	padding: 25px;
+	right: 50px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	top: 50px;
+	background: white;
+}
+
+#popup_content .sample{
+	height: 80%;
+	overflow: auto;
+}
+
+#popup_content .full{
+	height: 100%;
+	overflow: auto;
+}
+
+#popup_content p{
+	line-height: 26px;
+	font-size: 15px;
+	padding-bottom: 1em;
+}
+
+#media{
+	top: 24px;
+	left: 5%;
+}
+
+#joint{
+	top: 34px;
+	left: 20%;
+}
+
+#airline{
+	top: 50px;
+	left: 39%;
+}
+
+#terrorism{
+	top: 34px;
+	left: 58%;
+}
+
+#laws{
+	top: 24px;
+	left: 77%;
 }

@@ -1,20 +1,101 @@
-/* This file is where you define the way your page should look.
- * We will go over how CSS works, but the basic idea is you can identify what items you want to change, and then say how you want to change it.
- */
-
-
-/* Make it so there is a black border around every HTML element.
- * The "*" that shows before the "{ border: 1px solid black; }" below means "apply this to everything."
- * Try editing the 1 to a 2 and see what happens, or pick a different color.
- */
 * {
-	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
 }
 
-/* Make it so one of your elements has a red background.
- * The "#" indicates that we are selecting an item using its "id" value.
- * Try changing the id to something else to see what happens.
- */
-#headline {
-	background: red;
+body {
+	background: #EDEDED;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#container {
+	margin: auto;
+	width: 80%;
+	max-width: 1200px;
+}
+
+p {
+	margin: auto;
+	max-width: 600px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: #111111;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#story_content h2 {
+	border-top: 1px solid #C3C3C3;
+	border-bottom: 1px solid #C3C3C3;
+	color: #9F9F9F;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+	font-weight: normal;
+	font-style: italic;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.media iframe {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.image {
+	margin: 20px;
+}
+
+.image img {
+	width: 100%;
+}
+
+.image.center {
+	margin: auto;
+}
+.image.left {
+	float: left;
+	max-width: 200px;
+}
+.image.right {
+	float: right;
+	max-width: 200px;
+}
+
+.caption {
+	margin-bottom: 20px;
+}
+.image.center .caption {
+	text-align: center;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.caption .name {
+	margin-top: 10px;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	font-size: 21px;
+	font-style: italic;
+	text-align: right;
+}
+.caption .title {
+	text-align: right;
+}
+
+#landing_image {
+	margin-top: 10px;
+	margin-bottom:10px;
+	margin: auto
+}
+#church_glass {
+	width: 400px;
+}
+#wall_image {
+	width: 500px;
+	height:250px;
 }
