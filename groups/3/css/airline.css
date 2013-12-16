@@ -1,0 +1,37 @@
+#family{
+	top: 315px;
+	left: 100px;
+	-webkit-transform: rotate(5deg);
+}
+
+#security{
+	top: 350px;
+	left: 450px;
+	-webkit-transform: rotate(-2deg);
+}
+
+#rifles{
+	top: 650px;
+	left: 220px;
+}
+
+#candles{
+	top: 1010px;
+	left: 90px;
+	-webkit-transform: rotate(-4deg);
+}
+
+#airports{
+	top: 995px;
+	left: 580px;
+	-webkit-transform: rotate(5deg);
+}
+
+/*#rifles_caption{
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	border: 0px;
+	top: 510px;
+	left: 80px;
+}*/

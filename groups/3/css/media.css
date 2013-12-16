@@ -1,0 +1,34 @@
+#coverage{
+	top: 315px;
+	left: 100px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(2deg);
+}
+
+#airplane{
+	top: 350px;
+	left: 450px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(-4deg);
+}
+
+#wreckage{
+	top: 670px;
+	left: 120px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(-3deg);
+}
+
+#deppa{
+	top: 650px;
+	left: 550px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(0deg);
+}
+
+#scream{
+	top: 980px;
+	left: 320px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(4deg);
+}

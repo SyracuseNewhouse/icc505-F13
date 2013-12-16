@@ -7,7 +7,7 @@
  * The "*" that shows before the "{ border: 1px solid black; }" below means "apply this to everything."
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
-* {
+/** {
 	border: 1px solid black;
 }
 
@@ -15,6 +15,202 @@
  * The "#" indicates that we are selecting an item using its "id" value.
  * Try changing the id to something else to see what happens.
  */
+
+
+
+/* ==========================================================================
+   Universal
+   ========================================================================== */
+
+body{ padding:0; margin:0;}
+
+
+#container {animation:onload 2s;
+	-webkit-animation:onload 2s; }
+
+.main_content {margin:0px auto; max-width:1200px; padding:0 2%;}
+
+
+header { background-color: #fff; float:left; width:100%; font-family:'Open Sans', sans-serif; }
+
+
+ul li { float:right; list-style:none; padding:10px; font-size:.8em;}
+
+ul li a {color:#000; text-decoration:none; }
+
+ul {margin-right:1%;}
+
 #headline {
-	background: red;
+	font-size: 1.5em; 
+    float:left; 
+   
+    font-weight: normal; 
+    font-family:'Cedarville Cursive', sans-serif;
+}
+
+
+
+
+/* ==========================================================================
+   map stuff
+   ========================================================================== */
+
+
+.building {background: red; width:1000px;
+}
+
+#map {
+  position: fixed;
+  top: 75px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.link {width: 20px;
+height: 20px;
+position: absolute;
+top: 23%;
+left: 27%;
+display: block;
+z-index: 1;
+
+}
+
+/* ==========================================================================
+   White overlay w/ instructions
+   ========================================================================== */
+
+#overlay { position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,.8); z-index:50;}
+
+#overlay .text {width:45%; margin:0 auto; font-family:'Opan Sans', sans-serif; font-size:1.3em; margin-top:280px; line-height:1.6em; color:#777; }
+
+
+
+
+/* ==========================================================================
+   Fade-in animation keyframs
+   ========================================================================== */
+
+@keyframes onload
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+@-webkit-keyframes onload
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+
+audio {width:42px;width: 42px;
+	top: 0px;
+	position: absolute;
+}
+
+.audio_icon{ position:absolute; top:7px; left:7px; }
+
+.main{ margin:0 auto; max-width:1200px;}
+
+.blocks {
+	float:left; 
+	font-size:2.7em;
+	padding:5px;
+	font-family:'Oswald', sans-serif;
+	background-color:#26466D; 
+	color:#fff; 
+	width: 140px; 
+	height: 175px; 
+	margin:10px;
+	text-align:center;
+	line-height:1.7em;
+}
+
+.name{
+	position:absolute; 
+	background-color:#000; 
+	bottom:0px; 
+	text-align:center; 
+	color:#fff; 
+	opacity:.7;
+	width:100%;
+	font-family:'Noto Sans',sans serif;
+	font-size: .8em;
+	padding:3px 0px 3px 0px;
+}
+
+/* ==========================================================================
+   3-d trasformation rules
+   ========================================================================== */
+
+.flip-container {
+	-webkit-perspective: 1000;
+	float:left;
+	margin:10px;
+}
+	/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	-webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 150px;
+	overflow:hidden;
+	height: 185px;
+}
+
+/* flip speed goes here */
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	-webkit-backface-visibility: hidden;
+    backface-visibility:hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+	-webkit-transform: rotateY(180deg);
+}
+
+
+
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+
+#about { font-family:Georgia; font-size:1.2em; line-height:1.5em;}
+
+#about .column:first-of-type {padding-right:3%; }
+
+#about .column {width:48%; float:left; margin-bottom:100px;}
+
+#about .column .look_back{font-weight:bold;}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media screen and (max-width: 55em) {
+    #about .column { width:98%; margin-bottom:0; }
 }
