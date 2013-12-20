@@ -19,7 +19,14 @@ $(function () {
 	// We want a method which will "show" a given bio
 	var show_bio = function(index) {
 		$("#quilt").hide();
+		var close = $("<div>")
+			.addClass("close")
+			.click(function() {
+				show_quilt();
+			})
+			.text("Close");
 		bio_container.html($(bios[index]).html());
+		bio_container.append(close);
 		bio_container.show();
 	}
 
@@ -49,9 +56,4 @@ $(function () {
 			$("<h3>").text($(bios[index]).find(".name").text())
 		);
 	});
-
-	// Make it so when you click the bio container, it hides the bio / shows the quilt
-	bio_container.click(function() {
-		show_quilt();
-	})
 })
