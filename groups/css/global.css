@@ -215,7 +215,7 @@ width: 100%;
 min-height: 200px;
 background-color: #666;
 text-align: left;
-margin-top: 30px;
+/*margin-top: 30px;*/
 padding-top: 20px;
 padding-bottom: 20px;
 }
@@ -244,4 +244,22 @@ text-decoration: none;
 
 .footer-container p a:hover {
 text-decoration: underline;
+}
+
+
+
+/* ------- CREDITS CONTAINER ----- */
+
+.credits-container {
+background-color: #0072bc;
+color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.credits-container h5 {
+text-transform: uppercase;
+font-family: 'Open Sans', serif;
+  font-size: 16px;
+  font-weight: 700;
 }

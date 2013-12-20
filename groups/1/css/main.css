@@ -4,12 +4,16 @@
 
 
 #content {
-  position: absolute;
+ /* position: absolute;
   height: 80%;
   width: 80%;
   margin-left: 10%;
-  top: 500px;
+  top: 500px;*/
+  position: relative;
+  min-height: 500px;
 }
+
+
 
 .headline {
 	font-size: 20px;
