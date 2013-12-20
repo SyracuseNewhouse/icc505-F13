@@ -99,3 +99,21 @@ p {
 	width: 500px;
 	height:250px;
 }
+
+.continue {
+	clear: left;
+	cursor: pointer;
+	font-family: "Open Sans", sans;
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: center;
+	background-color: #0175a4;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 50;
+	line-height: 60px;
+	font-size: 20px;
+}

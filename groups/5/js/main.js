@@ -18,7 +18,6 @@ $(function () {
 	scroll_trigger.hide();
 	scroll_trigger.appendTo($("body"));
 
-
 	// Add a check for scrolling
 	var $window = $(window);
 	$window.scroll(function() {
@@ -84,21 +83,37 @@ $(function () {
            video_id,
            video_url + "?autoplay=1");
 
-		video.cue( 1, function() {
-		    this.cue(this.duration()-1, function() {
-		    	// The video is over!
-		    	
-		    	// Hide the video
-		    	video_container.fadeOut(100, function() {
-			    	// Show the text
-			    	text_container.fadeIn(1000);
-		    	});
-
-		    	// Set the scroll-forcer
-		    	scroll_trigger.css("top", 200 + Math.max(text_container.offset().top + text_container.height(), $(document).height()));
-		    	scroll_trigger.show();
-		    })
+		video.on("ended", function() {
+			end_video();
 		});
+
+		// This will make it possible to continue the video
+		// NOTE: this is really a dirty hack, but we'll look the other way.
+		var video_continue = $("<div>")
+			.addClass("continue")
+			.text("Continue")
+			.click(function() {
+				end_video();
+			})
+			.appendTo(segment);
+
+		var end_video = function() {
+			// Hide the continue button
+			video_continue.fadeOut(100);
+
+			// Stop the video
+			video.pause();
+
+			// Hide the video
+			video_container.fadeOut(100, function() {
+				// Show the text
+				text_container.fadeIn(1000);
+			});
+
+			// Set the scroll-forcer
+			scroll_trigger.css("top", 200 + Math.max(text_container.offset().top + text_container.height(), $(document).height()));
+			scroll_trigger.show();
+		}
 	}
 
 	var finished = function() {
