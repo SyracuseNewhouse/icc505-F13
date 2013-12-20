@@ -45,6 +45,9 @@ $(function () {
 		tile.click(function() {
 			show_bio(index);
 		});
+		tile.append(
+			$("<h3>").text($(bios[index]).find(".name").text())
+		);
 	});
 
 	// Make it so when you click the bio container, it hides the bio / shows the quilt
