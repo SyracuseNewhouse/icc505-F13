@@ -19,11 +19,6 @@ body {
 	background-color: #EFEFEF;
 }
 
-/* Make it so one of your elements has a red background.
- * The "#" indicates that we are selecting an item using its "id" value.
- * Try changing the id to something else to see what happens.
- */
-
 #navigation {
 	width: 80%;
 	max-width: 600px;
@@ -40,15 +35,31 @@ body {
 	list-style: none;
 	text-align: center;
 	line-height: 20px;
-}
+ 
+ .project4-item {
+ background-color: white;
+  -moz-box-shadow: 1px 1px rgba(0,0,0,.2);
+ box-shadow: 1px 1px rgba(0,0,0,.2);
+ }
+ 
+  .project4-item:hover {
+  background-color: #0175A4;
+  }
+ 
+ .project4-item-padding {
+ padding: 10px;
+ }
 
-#navigation li a {
-	text-decoration: none;
-	font-family: "Open Sans";
-	font-size: 20px;
-	color: black;
-	font-weight: bold;
+.project4-item img {
+width: 100%;
 
+.project4-item h4 a {
+font-family: 'Open Sans', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0175A4;
+  text-transform: uppercase;
+text-decoration: none;
 }
 
 #explanation {
@@ -57,4 +68,7 @@ body {
 	margin: auto;
 	margin-bottom: 20px;
 	line-height: 30px;
+}
+.project4-item:hover h4 a {
+	color: white;
 }
