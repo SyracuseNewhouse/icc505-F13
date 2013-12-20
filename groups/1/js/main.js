@@ -44,7 +44,10 @@ $(function () {
 
 				// Then we want to show the current keyframe
 				// For more information see http://api.jquery.com/show/
-				locked_keyframe.show();
+				locked_keyframe.show().animate({
+					"top": "+=20px",
+					"opacity": 1.0
+				});
 			});
 		};
 		
@@ -54,4 +57,43 @@ $(function () {
 
 	// Hide the keyframes before we start
 	keyframes.hide();
+	
+	var windowHeight = $(window).height();
+	var windowWidth = $(window).width();
+	$("#content").css("min-height", windowHeight);
+	$("#video, #video iframe").css("min-height", windowHeight);
+	var totalKeyframes = $("#keyframes li").size();
+	var keyframeIncrement = windowWidth/totalKeyframes;
+	var leftPos = 0;
+	var milisecondArray = [];
+	
+	for (var i=0; i < totalKeyframes; i++) {
+		//console.log(keyframeIncrement);
+		
+		var dataTime = jQuery("#keyframes li:eq(" + i + ")").attr("data-time");
+		var dataTimeUTC = new Date("December 19, 2013 " + dataTime + ":00:000");
+		//var dataTimeUTCmiliseconds =  dataTimeUTC.getUTCMilliseconds();
+	
+		var dataTimeUTCmiliseconds = dataTimeUTC.getTime();
+		
+		console.log("mili is: + " + dataTimeUTCmiliseconds);
+		milisecondArray.push({"mili": dataTimeUTCmiliseconds});
+	}
+	
+	for (var x=0; x<milisecondArray.length; x++) {
+		var miliGap = milisecondArray[x+1].mili - milisecondArray[x].mili;
+		var marker = "<div class='marker' style='left: " + leftPos + "px'></div>";
+		jQuery(".timeSpan").append(marker);
+	}
+	
+	console.log(milisecondArray);
+	
+	// total video miliseconds
+	var totalDuration = 386000; 
+	
+	console.log(totalKeyframes);
+	
+	$(".timeCurrent").animate({
+		"width": "100%"
+	}, totalDuration);
 })

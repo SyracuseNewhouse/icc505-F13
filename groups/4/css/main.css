@@ -31,22 +31,22 @@ body{ padding:0; margin:0;}
 .main_content {margin:0px auto; max-width:1200px; padding:0 2%;}
 
 
-header { background-color: #fff; float:left; width:100%; font-family:'Open Sans', sans-serif; }
+/*header { background-color: #fff; float:left; width:100%; font-family:'Open Sans', sans-serif; }*/
 
 
-ul li { float:right; list-style:none; padding:10px; font-size:.8em;}
+/*ul li { float:right; list-style:none; padding:10px; font-size:.8em;}
 
 ul li a {color:#000; text-decoration:none; }
 
-ul {margin-right:1%;}
+ul {margin-right:1%;}*/
 
-#headline {
+/*#headline {
 	font-size: 1.5em; 
     float:left; 
    
     font-weight: normal; 
     font-family:'Cedarville Cursive', sans-serif;
-}
+}*/
 
 
 
@@ -204,6 +204,55 @@ audio {width:42px;width: 42px;
 #about .column {width:48%; float:left; margin-bottom:100px;}
 
 #about .column .look_back{font-weight:bold;}
+
+
+
+/* ------ CUSTOM STYLES JEFF ------*/
+.explore-box {
+background-color: #eee;
+border: 1px solid #bbb;
+margin-top: 20px;
+}
+
+.explore-box-padding {
+padding: 10px;
+}
+
+
+.explore-box p {
+ font-family: 'Open Sans', serif;
+}
+
+.explore-bird-box {
+width: 75px;
+float: left;
+margin-right: 10px;
+margin-bottom: 10px;
+background-color: white;
+text-align: center;
+border: 1px solid #bbb; 
+padding: 5px;
+}
+
+.explore-bird-box img {
+width: 90%;
+}
+
+.group4-nav {
+margin-top: 20px;
+}
+
+.group4-nav ul li {
+float: left;
+margin-left: 20px;
+margin-top: 10px;
+}
+
+.group4-nav ul li a {
+font-family: 'Open Sans', serif;
+font-weight: 700;
+
+}
 
 
 /* ==========================================================================
