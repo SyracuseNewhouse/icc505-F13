@@ -18,9 +18,8 @@ $(function () {
 
 	// Now we need to add a tile layer to our map, otherwise it isn't actually a map
 	// NOTE: if you want a different map, that's totally fine but you need to find the map you want to use.
-	L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
-	    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
-	}).addTo(map);
+    var googleLayer = new L.Google('TERRAIN');
+	map.addLayer(googleLayer);
 
 	// Go through each item and use it to add a pin to the map
 	// We are using the jQuery "each" method to go through "each" item.
