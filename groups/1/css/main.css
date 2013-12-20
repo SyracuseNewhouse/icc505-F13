@@ -2,9 +2,6 @@
  * We will go over how CSS works, but the basic idea is you can identify what items you want to change, and then say how you want to change it.
  */
 
-body {
-  font-family: 'Droid Serif', serif;
-}
 
 #content {
   position: absolute;
@@ -79,6 +76,9 @@ body {
   width: 100%; 
   height: 100%;
 }
+
+
+
 
 @media screen and (max-width: 600px) {
   #keyframes li {

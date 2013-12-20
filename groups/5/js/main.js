@@ -124,4 +124,40 @@ $(function () {
 	$("#story_link").click(function() {
 		start();
 	});
+	
+	
+	
+	/* ---- JEFF CUSTOM JS ----*/
+	jQuery(".photo-lockerbie").find("img:eq(1)").hide();
+	jQuery(".photo-syracuse").find("img:eq(1)").hide();
+	
+	jQuery(".photo-lockerbie").hover(function() {
+		jQuery(this).find("img:eq(0)").hide();
+		jQuery(this).find("img:eq(1)").show();
+	}, function() {
+		jQuery(this).find("img:eq(1)").hide();
+		jQuery(this).find("img:eq(0)").show();
+	}); // hover
+	
+	jQuery(".photo-syracuse").hover(function() {
+		jQuery(this).find("img:eq(0)").hide();
+		jQuery(this).find("img:eq(1)").show();
+	}, function() {
+		jQuery(this).find("img:eq(1)").hide();
+		jQuery(this).find("img:eq(0)").show();
+	}); // hover
+	
+	jQuery(".photo-syracuse, .photo-lockerbie").hover(function() {
+		jQuery(this).find("img").stop().animate({
+			"top": "-=30px",
+			"left": "-=30px",
+			"width" : "+=60px"
+		}, 2000); // animate
+	}, function() {
+		jQuery(this).find("img").stop().animate({
+			"top": "0px",
+			"left": "0px",
+			"width" : "100%"
+		}, 2000); // animate
+	});
 })
