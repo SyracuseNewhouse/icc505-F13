@@ -2,51 +2,15 @@
  * We will go over how CSS works, but the basic idea is you can identify what items you want to change, and then say how you want to change it.
  */
 
-
-/* Make it so there is a black border around every HTML element.
- * The "*" that shows before the "{ border: 1px solid black; }" below means "apply this to everything."
- * Try editing the 1 to a 2 and see what happens, or pick a different color.
- */
-
-
-/* Make it so one of your elements has a red background.
- * The "#" indicates that we are selecting an item using its "id" value.
- * Try changing the id to something else to see what happens.
- */
-
-
-#headline {
-	font-size: 50px;
-	font-family: myFirstFont;
-       src: url(sansation_bold.woff);
-       font-weight:bold;
-       font-weight:italic;
+body {
+  font-family: 'Droid Serif', serif;
 }
 
-#keyframe-1 {
-	background: gray;
-	color: blue;
-  font-size: 24px;
-
-}
-
-#keyframe-2 {
-	background: orange;
-	color: blue;
-  font-style: 
-  font-size: 24px;
-
-}
-
-.headline {
-	font-size: 20px;
-	font-family: myFirstFont;
-       src: url(sansation_bold.woff);
-       font-weight:bold;
-       font-weight:italic;
-}
-
-body {font-family: 'Droid Serif', serif;
+#content {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 #keyframes li {
@@ -56,9 +20,9 @@ body {font-family: 'Droid Serif', serif;
   max-width: 450px; 
   width: 40%;
   top: 100px; 
-  left: 30%;
-  z-index: 2;
-  box-shadow: 0px 0px 10px #6a8d8c;  
+  left: 100%;
+  z-index: 3;
+  box-shadow: 0px 0px 10px #6a8d8c;
 }
 
 #keyframes li img {
@@ -83,10 +47,27 @@ body {font-family: 'Droid Serif', serif;
   font-weight: bold;
 }
 
-#video iframe {
+#cover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+#video {
   width: 100%; 
   height: 100%;
   position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+#video iframe {
+  width: 100%; 
+  height: 100%;
 }
 
 @media screen and (max-width: 600px) {

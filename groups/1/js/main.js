@@ -11,6 +11,10 @@ $(function () {
 	var video = Popcorn.vimeo(
 		'#video',
 		'https://vimeo.com/81153338?autoplay=1');
+
+	video.on("ended", function() {
+		video.play(0);
+	});
 	
 	// Go through each keyframe, see what time it should be triggered, and use Popcorn to trigger it
 	// We are using the jQuery "each" method to go through "each" keyframe.
@@ -30,28 +34,21 @@ $(function () {
 		// See http://api.jquery.com/attr/ for more information.
 		var cue_time = keyframe.attr("data-time");
 
-		// We want to use the cue_time to tell the video player to trigger an event every time the cue_time is hit.
-		// But we have a problem!  Since this is being defined inside of a loop, the value of "keyframe" will be different by the time our cue is actually triggered!
-		// This means we need to wrap the cue event inside of a function, "set_cue_event" which will "lock in" the right keyframe.
-		var set_cue_event = function(locked_keyframe) {
-			// To do this, we will use Popcorn's "cue" function.
-			// See http://popcornjs.org/popcorn-docs/media-methods/#cue for more information.
-			video.cue(cue_time, function() {
+		video.cue(cue_time, function() {
 
-				// First we want to hide all of the other keyframes
-				// For more information see http://api.jquery.com/hide/
-				keyframes.hide();
+			// First we want to hide all of the other keyframes
+			// For more information see http://api.jquery.com/hide/
+			keyframes.animate({ opacity: 0, left: "0%" }, 3000);
 
-				// Then we want to show the current keyframe
-				// For more information see http://api.jquery.com/show/
-				locked_keyframe.show();
-			});
-		};
-		
-		// Now we will actually call our function, which will set the cue event.
-		set_cue_event(keyframe);
+			// Then we want to show the current keyframe
+			// For more information see http://api.jquery.com/show/
+			keyframe.animate({ opacity: 0, left: "100%" }, 0);
+			keyframe.show()
+			keyframe.animate({ opacity: 1, left: "30%" }, 3000);
+			
+		});
 	});
 
 	// Hide the keyframes before we start
-	keyframes.hide();
+	keyframes.animate({ opacity: 0, left: "0%" }, 0);
 })
