@@ -1,16 +1,11 @@
-*{
-	margin: 0px;
-	padding: 0px;
-}
 
-h1{
+/*h1{
 	text-align: center;
 	font-size: 72px;
 	font-family: arial;
-}
+}*/
 
 body{
-	background-color: #ededed;
 	position: relative;
 }
 
@@ -19,18 +14,19 @@ audio{
 	width: 100%;
 }
 
-.container{
-	height: 1350px;
-	width: 100%;
-}
 
 .nav{
 	height: 250px;
 	width: 100%;
-	background-color: #ddd;
+	/*background-color: #ddd;*/
 	text-align: center;
 	/*position: fixed;
 	z-index: 600;*/
+	position: relative;
+}
+
+.inner-nav-container {
+background-color: #aaa;
 }
 
 .more{
@@ -71,7 +67,7 @@ audio{
 #popup_content {
 	font-family: "Droid Serif", serif;
 	z-index: 500;
-	position: fixed;
+	position: absolute;
 	height: 60%;
 	width: 300px;
 	padding: 25px;
@@ -120,4 +116,15 @@ audio{
 #laws{
 	top: 24px;
 	left: 77%;
+}
+
+
+
+/* ------- VIDEO ------ */
+.video-container {
+background-color: white;
+}
+
+.video-container-padding {
+padding: 10px;
 }
