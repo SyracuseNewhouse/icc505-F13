@@ -44,7 +44,10 @@ $(function () {
 			// For more information see http://api.jquery.com/show/
 			keyframe.animate({ opacity: 0, left: "100%" }, 0);
 			keyframe.show()
-			keyframe.animate({ opacity: 1, left: "30%" }, 3000);
+			if(keyframe.hasClass("landscape"))
+				keyframe.animate({ opacity: 1, left: "20%" }, 3000);
+			else
+				keyframe.animate({ opacity: 1, left: "30%" }, 3000);
 			
 		});
 	});

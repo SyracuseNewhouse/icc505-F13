@@ -21,6 +21,7 @@ jQuery(document).ready(function() {
 		$popup_content.find(".full").html(sample.html() + full.html());
 		$popup_content.find(".sample").show();
 		$popup_content.find(".full").hide();
+		$popup_content.animate({"top": $this.css("top")}, 1000);
 	});
 
 	 $(document).ready(function() {

@@ -278,7 +278,7 @@
       var self = this;
       self.$viewport.css("height", height=="100%"?height:(height + 20));
       self.$viewport.css("width", width=="100%"?width:(width  + 20));
-      self.$viewport.css("top", height=="100%"?0:(-75)); // TODO -- lololol
+      self.$viewport.css("top", height=="100%"?0:(-80)); // TODO -- lololol
       self.$viewport.css("left", 0);
       self.$floor.css("top", -(y + (width=="100%"?self.floorOffsetTop:(-10))));
       self.$floor.css("left", -(x + (width=="100%"?self.floorOffsetLeft:(-10))));

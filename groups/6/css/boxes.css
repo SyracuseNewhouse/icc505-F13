@@ -18,3 +18,22 @@ h1 {
 p {
 	line-height: 24px;
 }
+
+#disqus_thread {
+	width: 700px;
+	float: left;
+	margin-left: 20px;
+}
+
+#p4_scholars {
+	list-style: none;
+	margin-left: 300px;
+}
+
+#p4_scholars li {
+	min-height: 150px;
+}
+#p4_scholars p {
+	margin-left: 135px;
+
+}

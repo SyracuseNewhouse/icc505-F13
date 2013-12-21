@@ -10,21 +10,15 @@ $(function () {
 	segments.hide();
 
 	// This little guy will ensure the user can always scroll at the end of a segment
-	var scroll_trigger = $("<div></div>");
-	scroll_trigger.css("position", "absolute");
-	scroll_trigger.css("height", "100px");
-	scroll_trigger.css("width", "100px");
-
-	scroll_trigger.hide();
-	scroll_trigger.appendTo($("body"));
-
-	// Add a check for scrolling
-	var $window = $(window);
-	$window.scroll(function() {
-		if($window.scrollTop() + $window.height() > scroll_trigger.offset().top
-		&& scroll_trigger.is(":visible"))
+	var text_continue = $("<div></div>")
+		.addClass("continue_text")
+		.text("Continue")
+		.click(function() {
 			load_next_segment();
-	})
+		})
+
+	text_continue.hide();
+	text_continue.appendTo($("#story_content"));
 
 	// We want to keep track of which segment we're on.
 	// Since we don't start showing a segment, this will begin at -1
@@ -53,7 +47,7 @@ $(function () {
 		segments.hide();
 
 		// Hide the scroll trigger
-		scroll_trigger.hide();
+		text_continue.hide();
 
 		// Show the current segment
 		var segment = $(segments[current_segment]);
@@ -111,13 +105,13 @@ $(function () {
 			});
 
 			// Set the scroll-forcer
-			scroll_trigger.css("top", 200 + Math.max(text_container.offset().top + text_container.height(), $(document).height()));
-			scroll_trigger.show();
+			if(current_segment + 1 < segments.length)
+				text_continue.show();
 		}
 	}
 
 	var finished = function() {
-		scroll_trigger.hide();
+		text_continue.hide();
 	}
 
 	// Start the show when the start button is pressed!

@@ -59,16 +59,6 @@ $(function () {
 			enable_box(index + 1);
 	}
 
-	// Finally, we want to be able to make a given box "smart" and "clickable" (i.e. make it so when the user clicks, it triggers the activate box method)
-	var enable_activation = function(index) {
-		var box = $(boxes[index]);
-
-		// Add an event which is triggered when the user clicks
-		box.click(function() {
-			activate_box(index);
-		})
-	}
-
 	// Now we will go through each box.  We are going to set it up so that when the user clicks on it, it will "activate"
 	// We are using the jQuery "each" method to go through "each" box.
 	// See http://api.jquery.com/each/ for more information
@@ -82,16 +72,16 @@ $(function () {
 		// By passing the box into jQuery (that's the $ sign), we turn it into a jQuery object, which lets us do more things to it later.
 		var box = $(box);
 
-		// I want to set the box to be considered disabled, and so I will add a class (just like in HTML) to say that the box is disabled.
-		// See http://api.jquery.com/addClass/ for more information.
-		box.addClass("disabled");
-
 		// Now we enable activation for this box
-		enable_activation(index);
+		enable_box(index);
+
+		box.click(function() {
+			activate_box(index);
+		});
 	});
 
 	// Enable the first box (in programming, 0 is always the first, not 1)
-	enable_box(0);
+	activate_box(0);
 
 	//
 	var h = getQueryVariable("h");
@@ -100,7 +90,6 @@ $(function () {
 		for(var x in highlights){
 			var index = parseInt(highlights[x]);
 			highlight_box(index);
-
 		}
 	}
 	
@@ -111,7 +100,7 @@ $(function () {
 		gridWidth += liWidth;
 	}); // each method
 	
-	jQuery("ul#grid").css("width", gridWidth);
+	jQuery("ul#grid").css("width", gridWidth + 25);
 	
 	jQuery("ul#grid li").hover(function() {
 		jQuery(this).find(".gridBar").stop().animate({
@@ -133,7 +122,7 @@ $(function () {
 	
 	
 	jQuery(".grid-next").click(function() {
-		console.log("before: " + currentGridOffset);
+		currentGridOffset = parseInt(jQuery("ul#grid").css("left"));
 		if (currentGridOffset <= (containerWidth-gridWidth) ) {
 			gridMove = ((containerWidth-gridWidth)-30);
 		} else {
@@ -142,15 +131,13 @@ $(function () {
 		jQuery(this).parents(".grid-crop-box")
 		.find("ul#grid").animate({
 			"left": gridMove
-		}, function() {
-			currentGridOffset = parseInt(jQuery("ul#grid").css("left"));
-			console.log("after: " + currentGridOffset);
-		}); // animate end
+		}, { queue: false }); // animate end
 		
 	}); // click
 	
 	jQuery(".grid-prev").click(function() {
-		console.log("before: " + currentGridOffset);
+
+		currentGridOffset = parseInt(jQuery("ul#grid").css("left"));
 		if (currentGridOffset >= 0 ) {
 			gridMove = 30;
 		} else {
@@ -159,10 +146,7 @@ $(function () {
 		jQuery(this).parents(".grid-crop-box")
 		.find("ul#grid").animate({
 			"left": gridMove
-		}, function() {
-			currentGridOffset = parseInt(jQuery("ul#grid").css("left"));
-			console.log("after: " + currentGridOffset);
-		}); // animate end
+		}, { queue: false }); // animate end
 		
 	}); // click
 	

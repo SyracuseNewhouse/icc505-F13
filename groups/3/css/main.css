@@ -26,7 +26,7 @@ audio{
 }
 
 .inner-nav-container {
-background-color: #aaa;
+	background-color: #aaa;
 }
 
 .more{
@@ -66,14 +66,14 @@ background-color: #aaa;
 
 #popup_content {
 	font-family: "Droid Serif", serif;
-	z-index: 500;
+	z-index: 1;
 	position: absolute;
-	height: 60%;
+	height: 400px;
 	width: 300px;
 	padding: 25px;
 	right: 50px;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-	top: 50px;
+	top: 300px;
 	background: white;
 }
 
