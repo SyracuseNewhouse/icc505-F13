@@ -15,7 +15,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "title_background_url": "img/buildings/newhouse.jpg",
-      "booth_url": "img/buildings/newhouse.html"
+      "booth_url": "buildings/newhouse.html"
 
     },
     {
@@ -77,7 +77,7 @@
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/lyman.jpg",
+      "title_background_url": "img/buildings/falk.jpg",
       "booth_url": "buildings/falk.html"
     },
     {
@@ -184,7 +184,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "booth_url": "buildings/candlelight_vigil.html",
-      "title_background_url": "img/buildings/quad.jpg"
+      "title_background_url": "img/buildings/vigil.jpg"
     },
     {
       "number": "",
