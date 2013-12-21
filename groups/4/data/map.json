@@ -1,5 +1,5 @@
 {
-  "floorHeight": "1400",
+  "floorHeight": "1615",
   "floorWidth": "2000",
   "booths": [
     {
@@ -15,7 +15,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "title_background_url": "img/buildings/newhouse.jpg",
-      "booth_url": "img/buildings/newhouse.html"
+      "booth_url": "buildings/newhouse.html"
 
     },
     {
@@ -69,15 +69,15 @@
       "number": "",
       "category": "",
       "show_title": false,
-      "title": "Falk",
+      "title": "Falk College",
       "description": "",
       "attribution": "",
-      "x": 1050,
-      "y": 900,
+      "x": 1345,
+      "y": 1476,
       "height": 80,
       "width": 80,
       "background_url": "img/rw_dove.png",
-      "title_background_url": "img/buildings/lyman.jpg",
+      "title_background_url": "img/buildings/falk.jpg",
       "booth_url": "buildings/falk.html"
     },
     {
@@ -145,7 +145,7 @@
       "number": "",
       "category": "",
       "show_title": false,
-      "title": "Quad",
+      "title": "The Quad",
       "description": "",
       "attribution": "",
       "x": 680,
@@ -160,7 +160,7 @@
       "number": "",
       "category": "",
       "show_title": false,
-      "title": "Hendricks",
+      "title": "Hendricks Chapel",
       "description": "",
       "attribution": "",
       "x": 450,
@@ -184,7 +184,7 @@
       "width": 80,
       "background_url": "img/rw_dove.png",
       "booth_url": "buildings/candlelight_vigil.html",
-      "title_background_url": "img/buildings/quad.jpg"
+      "title_background_url": "img/buildings/vigil.jpg"
     },
     {
       "number": "",
