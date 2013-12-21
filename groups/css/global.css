@@ -255,6 +255,14 @@ text-decoration: none;
 text-decoration: underline;
 }
 
+.footer-about {
+text-align: left;
+}
+
+.footer-logo {
+margin-bottom: 20px;
+}
+
 
 
 /* ------- CREDITS CONTAINER ----- */
