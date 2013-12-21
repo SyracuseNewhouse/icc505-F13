@@ -208,6 +208,16 @@ font-family: 'Droid Serif', serif;
  font-weight: 300;
 }
 
+h3.intro-text, h3.intro-text a {
+color: white;
+text-shadow: 1px 1px rgba(0,0,0,.3);
+margin-top: 20px;
+margin-bottom: 20px;
+font-family: 'Droid Serif', serif;
+font-weight: 300px;
+font-style: italic;
+}
+
 .home h2 {
 color: white;
 font-family: 'Open Sans', serif;
