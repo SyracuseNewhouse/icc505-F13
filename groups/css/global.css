@@ -13,12 +13,21 @@ strong {
 font-weight: 700;
 }
 
+em {
+font-style: italic;
+}
+
 .container {
 position: relative;
 }
 
 .container-padding {
 padding-top: 100px;
+}
+
+.spacer {
+width: 100%;
+height: 40px;
 }
 
 /* ----- GLOBAL HEADER ------ */
@@ -263,4 +272,28 @@ text-transform: uppercase;
 font-family: 'Open Sans', serif;
   font-size: 16px;
   font-weight: 700;
+}
+
+
+
+/* ------ ABOUT PAGE -----*/
+
+
+.about-page h2 {
+font-family: 'Open Sans', serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.about-page h3 {
+font-size: 16px;
+}
+
+/* select p tags that are immediately after h3 tags */
+.about-page h3+p {
+font-style: italic;
 }
