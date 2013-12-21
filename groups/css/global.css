@@ -176,7 +176,7 @@ padding: 10px;
 padding: 30px;
 }
 
-ul.home-projects li h3 a {
+h3, h3 a, ul.home-projects li h3 a {
 font-family: 'Open Sans', serif;
   font-size: 24px;
   line-height: 26px;
@@ -186,9 +186,9 @@ font-family: 'Open Sans', serif;
   color: black;
 }
 
-h3 span.subtext {
+h3 span.subtext, h3 span.subtext a {
 font-family: 'Droid Serif', serif;
- font-size: 24px;
+ font-size: 22px;
  color: #0175A4;
  font-weight: 300;
 }
@@ -255,6 +255,7 @@ background-color: #0072bc;
 color: white;
 padding-top: 30px;
 padding-bottom: 30px;
+margin-top: 20px;
 }
 
 .credits-container h5 {

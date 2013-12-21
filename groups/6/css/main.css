@@ -7,10 +7,7 @@
  * The "*" that shows before the "{ border: 1px solid black; }" below means "apply this to everything."
  * Try editing the 1 to a 2 and see what happens, or pick a different color.
  */
-* {
-	margin: 0px;
-	padding: 0px;
-}
+
 
 /* Make it so one of your elements has a red background.
  * The "#" indicates that we are selecting an item using its "id" value.
@@ -20,33 +17,106 @@
  	background: #EDEDED;
  	font-family: "Droid Serif";
  }
-#grid {
-	width: 80%;
-	margin: auto;
-}
-#container {
-	color: black;
-}
+
+
 #img src {
 	height: 100px;
 }
-#grid li {
-    list-style: none; 
-    float: left;
-    border-right: 1px solid white;
-	text-align: center;
-	display:table;
-	background: #888888;
-	padding: 15px;
+
+.grid-crop-box {
+width: 100%;
+height: 60px;
+overflow: hidden;
+position: relative;
+margin-top: 20px;
 }
 
-#grid li.enabled {
+.grid-prev, .grid-next {
+width: 30px;
+height: 50px;
+background-color: #333;
+position: absolute;
+bottom: 0px;
+z-index: 100;
+background-repeat: no-repeat;
+background-position: center center;
+cursor: pointer;
+}
+
+.grid-prev {
+left: 0px;
+background-image: url('../img/prev.png');
+-webkit-box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.3);
+box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.3);
+}
+
+.grid-next {
+right: 0px;
+background-image: url('../img/next.png');
+-webkit-box-shadow: -10px 0px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: -10px 0px 5px 0px rgba(0,0,0,0.3);
+box-shadow: -10px 0px 5px 0px rgba(0,0,0,0.3);
+}
+
+.grid-prev:hover, .grid-next:hover {
+background-color: #0175A4;
+}
+
+ul#grid {
+position: absolute;
+height: 50px;
+bottom: 0px;
+left: 30px;
+width: auto;
+}
+
+
+ul#grid li {
+    list-style: none; 
+    float: left;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-right: 1px solid rgba(0,0,0,.1);
+	text-align: center;
+	background: #888;
+	position: relative;
+	line-height: 50px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	cursor: pointer;
 }
 
-#grid li.highlighted {
+ul#grid li .gridBar {
+width: 100%;
+height: 10px;
+position: absolute;
+top: 0px;
+left: 0px;
+background-color: #0175A4;
+opacity: 0;
 }
 
+ul#grid li.enabled {
+	cursor: pointer;
+}
+
+ul#grid li.highlighted {
+}
+
+ul#grid li:hover {
+background-color: #333;
+}
+
+ul#grid li.active {
+background-color: #004a80;
+}
+
+
+.spacer {
+width: 100%;
+height: 50px;
+}
 
 .box_label {
 	color: white;
@@ -62,17 +132,18 @@
 
 #box_content {
 	height: 400px;
-	width: 80%;
-	margin: auto;
+	width: 100%;
 }
 
 #box_content iframe {
 	height: 100%;
 	width: 100%;
 	border: 0px;
+	background-color: white;
 }
 .side_image {
 	float: left;
+	margin-right: 20px;
 }
 p {
 	margin-bottom: 20px;
