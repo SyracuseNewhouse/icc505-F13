@@ -1,29 +1,7 @@
-* {
-	padding: 0px;
-	margin: 0px;
-}
-
 body {
-	background: #EDEDED;
-	font-family: 'Open Sans', sans-serif;
+	background: #FFFFFF;
 }
 
-
-#container {
-	margin: auto;
-	width: 80%;
-	max-width: 1200px;
-}
-
-p {
-	margin: auto;
-	max-width: 600px;
-	width: 100%;
-	font-family: 'Open Sans', sans-serif;
-	color: #111111;
-	margin-bottom: 10px;
-	margin-top: 20px;
-}
 
 #story_content h2 {
 	border-top: 1px solid #C3C3C3;
@@ -116,4 +94,51 @@ p {
 	z-index: 50;
 	line-height: 60px;
 	font-size: 20px;
+}
+
+
+
+/* ------ CUSTOM STYLES JEFF -----*/
+
+
+#photo-container {
+width: 100%;
+min-height: 300px;
+margin-bottom: 20px;
+}
+
+#photo-container img {
+width: 100%;
+}
+
+.photo-syracuse, .photo-lockerbie {
+position: relative;
+overflow:hidden;
+height: 375px;
+}
+
+.photo-syracuse img, .photo-lockerbie img {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+}
+
+.city-text {
+width: 100%;
+height: 80px;
+text-align: center;
+background-color: rgba(0,0,0,.5);
+position: absolute;
+top: 100px;
+left:0px;
+z-index: 100;
+}
+
+.city-text h4 {
+font-family: 'Droid Serif', serif;
+font-size: 48px;
+color: white;
+font-style: italic; 
+text-shadow: 1px 1px rgba(0,0,0,.5);
 }

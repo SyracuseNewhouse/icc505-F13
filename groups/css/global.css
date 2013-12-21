@@ -13,12 +13,21 @@ strong {
 font-weight: 700;
 }
 
+em {
+font-style: italic;
+}
+
 .container {
 position: relative;
 }
 
 .container-padding {
 padding-top: 100px;
+}
+
+.spacer {
+width: 100%;
+height: 40px;
 }
 
 /* ----- GLOBAL HEADER ------ */
@@ -176,7 +185,7 @@ padding: 10px;
 padding: 30px;
 }
 
-ul.home-projects li h3 a {
+h3, h3 a, ul.home-projects li h3 a {
 font-family: 'Open Sans', serif;
   font-size: 24px;
   line-height: 26px;
@@ -186,9 +195,9 @@ font-family: 'Open Sans', serif;
   color: black;
 }
 
-h3 span.subtext {
+h3 span.subtext, h3 span.subtext a {
 font-family: 'Droid Serif', serif;
- font-size: 24px;
+ font-size: 22px;
  color: #0175A4;
  font-weight: 300;
 }
@@ -215,7 +224,7 @@ width: 100%;
 min-height: 200px;
 background-color: #666;
 text-align: left;
-margin-top: 30px;
+/*margin-top: 30px;*/
 padding-top: 20px;
 padding-bottom: 20px;
 }
@@ -244,4 +253,47 @@ text-decoration: none;
 
 .footer-container p a:hover {
 text-decoration: underline;
+}
+
+
+
+/* ------- CREDITS CONTAINER ----- */
+
+.credits-container {
+background-color: #a1daff;
+color: #333;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 20px;
+}
+
+.credits-container h5 {
+text-transform: uppercase;
+font-family: 'Open Sans', serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+
+/* ------ ABOUT PAGE -----*/
+
+
+.about-page h2 {
+font-family: 'Open Sans', serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.about-page h3 {
+font-size: 16px;
+}
+
+/* select p tags that are immediately after h3 tags */
+.about-page h3+p {
+font-style: italic;
 }

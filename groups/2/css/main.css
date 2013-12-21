@@ -35,6 +35,8 @@ body {
 	list-style: none;
 	text-align: center;
 	line-height: 20px;
+ }
+ 
  
  .project4-item {
  background-color: white;
@@ -52,10 +54,11 @@ body {
 
 .project4-item img {
 width: 100%;
+}
 
 .project4-item h4 a {
 font-family: 'Open Sans', serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   color: #0175A4;
   text-transform: uppercase;
@@ -71,4 +74,22 @@ text-decoration: none;
 }
 .project4-item:hover h4 a {
 	color: white;
+}
+
+
+
+.group2-nav {
+margin-top: 20px;
+}
+
+.group2-nav ul li {
+float: left;
+margin-left: 20px;
+margin-top: 10px;
+}
+
+.group2-nav ul li a {
+font-family: 'Open Sans', serif;
+font-weight: 700;
+
 }

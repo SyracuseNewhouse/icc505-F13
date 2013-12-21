@@ -12,6 +12,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/popcorn.js"></script>
 		<script type="text/javascript" src="../js/global.js"></script>
+		<script type="text/javascript" src="../js/resizeVideo.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
@@ -44,7 +45,7 @@
 					<div class="col-md-3 col-sm-3 project-thumb"><img src="../img/1timeline_poster.jpg" alt="Honoring those we lost" /></div>
 					<div class="col-md-9 col-sm-9">
 					<div class="project-item-padding">
-						<h3><a href="1/index.html">Takeoff<br /> 
+						<h3><a href="../1/index.html">Takeoff<br /> 
 <span class="subtext">Timeline of Pan Am Flight 103</span></a></h3>
 					</div><!-- padding -->
 					</div><!-- col -->
@@ -55,7 +56,7 @@
 					<div class="col-md-3 col-sm-3 project-thumb"><img src="../img/2honoringlost_poster.jpg" alt="Honoring those we lost" /></div>
 					<div class="col-md-9 col-sm-9">
 					<div class="project-item-padding">
-						<h3><a href="2/index.html">Honoring those we lost <br /> 
+						<h3><a href="../2/index.html">Honoring those we lost <br /> 
 <span class="subtext">Tributes and the London experience for 35 SU students</span></a></h3>
 					</div><!-- padding -->
 					</div><!-- col -->
@@ -66,7 +67,7 @@
 					<div class="col-md-3 col-sm-3 project-thumb"><img src="../img/3societalshifts_poster.jpg" alt="Honoring those we lost" /></div>
 					<div class="col-md-9 col-sm-9">
 					<div class="project-item-padding">
-						<h3><a href="3/index.html">Societal shifts<br /> 
+						<h3><a href="../3/index.html">Societal shifts<br /> 
 <span class="subtext">Terrorism and security changes ever since</span></a></h3>
 					</div><!-- padding -->
 					</div><!-- col -->
@@ -77,7 +78,7 @@
 					<div class="col-md-3 col-sm-3 project-thumb"><img src="../img/4lookback_poster.jpg" alt="Honoring those we lost" /></div>
 					<div class="col-md-9 col-sm-9">
 					<div class="project-item-padding">
-						<h3><a href="4/index.html">Look back, act forward<br /> 
+						<h3><a href="../4/index.html">Look back, act forward<br /> 
 <span class="subtext">Meet the 2013 Remembrance Scholars</span></a></h3>
 					</div><!-- padding -->
 					</div><!-- col -->
@@ -88,7 +89,7 @@
 					<div class="col-md-3 col-sm-3 project-thumb"><img src="../img/5lockerbie_poster.jpg" alt="Honoring those we lost" /></div>
 					<div class="col-md-9 col-sm-9">
 					<div class="project-item-padding">
-						<h3><a href="5/index.html">A bond within the wreckage<br /> 
+						<h3><a href="../5/index.html">A bond within the wreckage<br /> 
 <span class="subtext">How Syracuse and Lockerbie became forever intertwined</span></a></h3>
 					</div><!-- padding -->
 					</div><!-- col -->
@@ -99,7 +100,7 @@
 					<div class="col-md-3 col-sm-3 project-thumb"><img src="../img/6shapingfuture_poster.jpg" alt="Honoring those we lost" /></div>
 					<div class="col-md-9 col-sm-9">
 					<div class="project-item-padding">
-						<h3><a href="6/index.html">Shaping the future<br /> 
+						<h3><a href="../6/index.html">Shaping the future<br /> 
 <span class="subtext">Moving beyond the tragedy</span></a></h3>
 					</div><!-- padding -->
 					</div><!-- col -->
@@ -107,11 +108,11 @@
 				</li>
 				<li>
 				<div class="row">
-					<div class="col-md-3 col-sm-3 project-thumb"><img src="../img/1timeline_poster.jpg" alt="Honoring those we lost" /></div>
+					<div class="col-md-3 col-sm-3 project-thumb"><img src="../img/about-thumb.png" alt="About the Project" /></div>
 					<div class="col-md-9 col-sm-9">
 					<div class="project-item-padding">
 						<h3><a href="about.html">About the Project<br /> 
-<span class="subtext">Meet the group members</span></a></h3>
+<span class="subtext">The inspiration and team behind these interactives</span></a></h3>
 					</div><!-- padding -->
 					</div><!-- col -->
 				</div><!-- row -->
@@ -122,16 +123,15 @@
 		</div><!-- project -->
 		
 		
-			<div class="container-padding">
+			
 			<div class="container">
+			<div class="container-padding">
 			<h1 id="headline">Takeoff:<br /> <span>Timeline of Pan Am Flight 103 </span> </h1>
 			</div><!-- container -->
 			<div id="content">
-			<div class="timeSpan">
-				<div class="timeCurrent"></div>
-			</div><!-- timeSpan -->
+			
 				<ul id="keyframes">
-					<li id="keyframe-intro" data-time="0:01">
+					<li id="keyframe-intro" data-time="0:01" class="landscape">
 						<div class="headline">Introduction</div>
 						<div class="information">The bombing of Pan Am Flight 103 represents one of the first major acts of terrorism that directly affected U.S. interests. Among the 270 victims were 35 Syracuse University students. This timeline recounts the subsequent events and honors those lives 25 years later.</div>
 					</li>
@@ -144,7 +144,7 @@
 						<div class="image"> <img src="img/crash.jpg"></div>
 						<div class="information">British investigators concluded that a bomb in the luggage compartment caused the explosion.</div>
 					</li>
-					<li id="keyframe-5" data-time="0:43">
+					<li id="keyframe-5" data-time="0:43" class="landscape">
 						<div class="headline">Dec. 29, 1988</div>
 						<div class="image"> <img src="img/security.jpg"></div>
 						<div class="information">As a result of the Pan Am 103 terrorist attack, the Federal Aviation Administration imposed new regulations on American planes that flew out of Pan Am airports in western Europe and the Middle East.</div>
@@ -157,7 +157,7 @@
 						<div class="headline">Jan. 1, 1989</div>
 						<div class="information">Accompanied by British Prime Minister Margaret Thatcher, 700 mourners join for a memorial at Dryfesdale Parish Church in Lockerbie. About 200 relatives of the victims and 100 Pan American World Airways employees were in attendance.</div>
 					</li>
-					<li id="keyframe-8" data-time="1:25">
+					<li id="keyframe-8" data-time="1:25" class="landscape">
 						<div class="headline">Jan. 18, 1989</div>
 						<div class="image"> <img src="img/8jan181989.jpg"></div>
 						<div class="information">At an interfaith memorial at the Carrier Dome, Syracuse University Chancellor Melvin A. Eggers announced a Remembrance Scholarship fund. Approximately 15,000 people were in attendance. <em>The Daily Orange</em> -- the student-run newspaper at SU -- released a special edition dedicated to the 35 student victims, and members of SU's drama department performed a tribute.</div>
@@ -176,7 +176,7 @@
 						<div class="image"> <img src="img/11_feb3_1989.jpg"></div>
 						<div class="information">Reports said western intelligence came to the conclusion that the bombing was commissioned by Iran and carried out with support from Syria and Libya.</div>
 					</li>
-					<li id="keyframe-12" data-time="2:21">
+					<li id="keyframe-12" data-time="2:21" class="landscape">
 						<div class="headline">March 16, 1989</div>
 						<div class="image"> <img src="img/12_mar16_1989.jpg"></div>
 						<div class="information">SU Chancellor Melvin A. Eggers visited Lockerbie. While there, he placed a wreath at the Grave of the Missing Persons.</div>
@@ -189,12 +189,12 @@
 						<div class="headline">Feb. 13, 1991</div>
 						<div class="information">Three years after the bombing, the Scottish Fatal Accident Inquiry was completed and determined the attack to be a "criminal act of murder."</div>
 					</li>
-					<li id="keyframe-15" data-time="3:03">
+					<li id="keyframe-15" data-time="3:03" class="landscape">
 						<div class="headline">Nov. 14, 1991</div>
 						<div class="image"> <img src="img/15_nov14_1991.jpg"></div>
 						<div class="information">The United States indicted two Libyan intelligence agents -- Abdelbaset Ali Mohmed al-Megrahi and Al-Amin Khalifa Fhimah -- and left open the possibility of military retaliation for the Pan Am 103 bombing.</div>
 					</li>
-					<li id="keyframe-17" data-time="3:17">
+					<li id="keyframe-17" data-time="3:17" class="landscape">
 						<div class="headline">March 23, 1995</div>
 						<div class="image"> <img src="img/17_mar23_1995.jpg"></div>
 						<div class="information">The FBI announced a $4 million reward for the two suspects.</div>
@@ -204,17 +204,17 @@
 						<div class="image"> <img src="img/18_apr5_1999.jpg"></div>
 						<div class="information">More than 10 years after the Pan Am 103 bombing, Fhimah and al-Megrahi -- the two Libyans charged with planting the bomb -- arrived in the Netherlands to face trial for the crime.</div>
 					</li>
-					<li id="keyframe-19" data-time="3:45">
+					<li id="keyframe-19" data-time="3:45" class="landscape">
 						<div class="headline">May 3 2000</div>
 						<div class="image"> <img src="img/19_may3_2000.jpg"></div>
 						<div class="information">The trial opened at the United States Air Force base Camp Zeist in the Netherlands with a specially convened Scottish court. Fhimah and al-Megrahi pleaded not guilty to murdering the 270 people who died as a result of the Pan Am 103 bombing.
 					</li>
-					<li id="keyframe-20" data-time="3:59">
+					<li id="keyframe-20" data-time="3:59" class="landscape">
 						<div class="headline">June 16, 2000</div>
 						<div class="image"> <img src="img/20_jun16_2000.jpg"></div>
 						<div class="information">The owner of MEBO AG, a Swiss firm that made the timer allegedly used for the bomb, identifed al-Megrahi in court, saying they did business together.</div>
 					</li>
-					<li id="keyframe-22" data-time="4:13">
+					<li id="keyframe-22" data-time="4:13" class="landscape">
 						<div class="headline">August 22, 2000</div>
 						<div class="image"> <img src="img/22_aug_2000.jpg"></div>
 						<div class="information">Defense attorneys sought classified documents from the CIA for cross-examination of the witnesses.</div>
@@ -239,7 +239,7 @@
 						<div class="image"> <img src="img/26_mar14_2002.jpg"></div>
 						<div class="information">Al-Megrahi lost his appeal because the prosecution's circumstantial evidence was sufficient to uphold the conviction.</div>
 					</li>
-					<li id="keyframe-27" data-time="5:23">
+					<li id="keyframe-27" data-time="5:23" class="landscape">
 						<div class="headline">August 20, 2009</div>
 						<div class="image"> <img src="img/27_aug2009_1.jpg"></div>
 						<div class="information">Al-Megrahi was released on compassionate grounds claiming he had only three months to live because of prostate cancer. He was freed from Scottish jail but his release stirred controversy when he outlived the suggested three months.</div>
@@ -254,10 +254,15 @@
 						<div class="image"> <img src="img/30_date.jpg"></div>
 						<div class="information">The Scottish Criminal Cases Review Commission report, based on recent evidence uncovered by a Scottish legal review, would probably have resulted in the verdict against Abdel Baset al-Meghrahi being overturned.</div>
 					</li>
-					<li id="keyframe-credit" data-time="6:05">
-					<div class="headline">Credits</div>
-						<div class="information">Photos courtesy of SU Archives. Video courtesy of Ryan Lane. Produced By Jessica Cabe, Alejandra Acuna, Daniel Taroy, Angela Zonunpari and Joe Infantino.</div>
-					</li>
+					<li id="keyframe-31" data-time="6:05">
+                        <div class="headline">Dec, 21, 2013</div>
+                        <div class="image"> <img src="img/31_peaceprayer.jpg"></div>
+                        <div class="information">The 25th anniversary is commemorated with services in Syracuse, New York City, Arlington, Va., London and Lockerbie. At 2:04 pm., a  Common Prayer of Peace was recited by people around the world.</div>
+                    </li>
+                    <li id="keyframe-credit" data-time="6:30">
+                    <div class="headline">Credits</div>
+                        <div class="information">Photos courtesy of SU Archives. Video courtesy of Ryan Lane. Produced By Jessica Cabe, Alejandra Acuna, Daniel Taroy, Angela Zonunpari and Joe Infantino.</div>
+                    </li>
 				</ul>
 				<div id="timeline"></div>
 				<div id="cover"></div>
@@ -266,6 +271,17 @@
 		</div><!-- container padding -->
 		</div><!-- container -->
 		
+		<div class="credits-container">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h5>Credits</h5>
+						<p>Produced By Jessica Cabe, Alejandra Acuna, Daniel Taroy, Angela Zonunpari and Joe Infantino.</p>
+						<p>Photos courtesy of SU Archives. Video courtesy of Ryan Lane.</p>
+					</div><!-- col -->
+				</div><!-- row -->
+			</div><!-- container -->
+		</div><!-- credits container -->
 		
 		
 		<div class="footer-container">

@@ -103,4 +103,71 @@ $(function () {
 
 		}
 	}
+	
+	var gridWidth = 0;
+	jQuery("ul#grid li").each(function() {
+		jQuery(this).prepend("<div class='gridBar'></div>");
+		var liWidth = jQuery(this).width();
+		gridWidth += liWidth;
+	}); // each method
+	
+	jQuery("ul#grid").css("width", gridWidth);
+	
+	jQuery("ul#grid li").hover(function() {
+		jQuery(this).find(".gridBar").stop().animate({
+			"top": "-9px",
+			"opacity": 1.0
+		});
+	}, function() {
+		jQuery(this).find(".gridBar").stop().animate({
+			"top": "0px",
+			"opacity": 0
+		});
+	});
+	var containerWidth = jQuery(".grid-crop-box").width();
+	var gridOffset = jQuery("ul#grid").offset().left;
+	var gridMove;
+	var currentGridOffset = 0;
+	var prevArrowToggle = false;
+	var nextArrowToggle = false;
+	
+	
+	jQuery(".grid-next").click(function() {
+		console.log("before: " + currentGridOffset);
+		if (currentGridOffset <= (containerWidth-gridWidth) ) {
+			gridMove = ((containerWidth-gridWidth)-30);
+		} else {
+			gridMove = "-=" + Math.round(gridWidth/10);
+		}
+		jQuery(this).parents(".grid-crop-box")
+		.find("ul#grid").animate({
+			"left": gridMove
+		}, function() {
+			currentGridOffset = parseInt(jQuery("ul#grid").css("left"));
+			console.log("after: " + currentGridOffset);
+		}); // animate end
+		
+	}); // click
+	
+	jQuery(".grid-prev").click(function() {
+		console.log("before: " + currentGridOffset);
+		if (currentGridOffset >= 0 ) {
+			gridMove = 30;
+		} else {
+			gridMove = "+=" + Math.round(gridWidth/10);
+		}
+		jQuery(this).parents(".grid-crop-box")
+		.find("ul#grid").animate({
+			"left": gridMove
+		}, function() {
+			currentGridOffset = parseInt(jQuery("ul#grid").css("left"));
+			console.log("after: " + currentGridOffset);
+		}); // animate end
+		
+	}); // click
+	
+	jQuery("ul#grid li").click(function() {
+		jQuery("ul#grid li").removeClass("active");
+		jQuery(this).addClass("active");
+	}); // click
 })
