@@ -3,19 +3,19 @@
 }*/
 
 #faa{
-	top: 315px;
+	top: 115px;
 	left: 100px;
 	-webkit-transform: rotate(-4deg);
 }
 
 #asi{
-	top: 350px;
+	top: 150px;
 	left: 520px;
 	-webkit-transform: rotate(-1deg);
 }
 
 #state{
-	top: 740px;
+	top: 540px;
 	left: 425px;
 	-webkit-transform: rotate(4deg);
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
@@ -23,28 +23,27 @@
 }
 
 #sponsor{
-	top: 710px;
+	top: 510px;
 	left: 105px;
 	-webkit-transform: rotate(-2deg);
 	cursor: default;
-	z-index: 450;
 }
 
 #explosion{
-	top: 1110px;
+	top: 910px;
 	left: 505px;
 	-webkit-transform: rotate(3deg);
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 #libya{
-	top: 1100px;
+	top: 900px;
 	left: 80px;
 	-webkit-transform: rotate(3deg);
 }
 
 #dot{
-	top: 1420px;
+	top: 1220px;
 	left: 115px;
 	cursor: default;
 }
@@ -59,6 +58,5 @@
 #twa{
 	top: 1287px;
 	left: 395px;
-	z-index: 450;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
