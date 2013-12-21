@@ -36,8 +36,20 @@
   box-shadow: 0px 0px 10px #6a8d8c;
 }
 
-#keyframes li img {
-  max-width: 100%;
+#keyframes li .image img {
+max-width: 100%;
+}
+
+
+#keyframes li.landscape {
+ max-width: 640px; 
+  width: 60%;
+}
+
+#keyframes li.landscape .image {
+float: left;
+width: 35%;
+margin-right: 10px;
 }
 
 .information {
@@ -70,7 +82,7 @@
 #video {
   width: 100%; 
   height: 100%;
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0px;
   z-index: 1;
@@ -79,6 +91,7 @@
 #video iframe {
   width: 100%; 
   height: 100%;
+  overflow: hidden;
 }
 
 
