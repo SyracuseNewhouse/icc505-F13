@@ -54,7 +54,7 @@ padding: 0px;
 margin: 0px;
 }
 
-header h1 {
+header h1, header h1 a {
   font-family: 'Open Sans', serif;
   font-size: 18px;
   font-weight: 700;
@@ -63,7 +63,7 @@ header h1 {
   margin-bottom: 3px;
 }
 
-header h2 {
+header h2, header h2 a {
   font-family: 'Droid Serif', serif;
   font-size: 18px;
   font-weight: 300;
@@ -78,6 +78,12 @@ background-image: url('../img/rememberance-bird.png');
 margin-right: 1%;
 background-repeat: no-repeat;
 background-position: center;
+}
+
+#bird-link {
+display: block;
+width: 100%;
+height: 80px;
 }
 
 .header-text {
@@ -202,6 +208,16 @@ font-family: 'Droid Serif', serif;
  font-weight: 300;
 }
 
+h3.intro-text, h3.intro-text a {
+color: white;
+text-shadow: 1px 1px rgba(0,0,0,.3);
+margin-top: 20px;
+margin-bottom: 20px;
+font-family: 'Droid Serif', serif;
+font-weight: 300px;
+font-style: italic;
+}
+
 .home h2 {
 color: white;
 font-family: 'Open Sans', serif;
@@ -253,6 +269,14 @@ text-decoration: none;
 
 .footer-container p a:hover {
 text-decoration: underline;
+}
+
+.footer-about {
+text-align: left;
+}
+
+.footer-logo {
+margin-bottom: 20px;
 }
 
 
