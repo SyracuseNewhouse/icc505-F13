@@ -75,3 +75,21 @@ text-decoration: none;
 .project4-item:hover h4 a {
 	color: white;
 }
+
+
+
+.group2-nav {
+margin-top: 20px;
+}
+
+.group2-nav ul li {
+float: left;
+margin-left: 20px;
+margin-top: 10px;
+}
+
+.group2-nav ul li a {
+font-family: 'Open Sans', serif;
+font-weight: 700;
+
+}
